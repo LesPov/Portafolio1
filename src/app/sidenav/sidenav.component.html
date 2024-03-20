@@ -1,1 +1,15 @@
-<p>sidenav wordks!</p>
+<div class="sidenav">
+    <div class="logo_container">
+        <button class="logo"> </button>
+        <div class="logo_text"></div>
+        <button class="btn_close"></button>
+    </div>
+    <ul class="sidenav_nav">
+        <li class="sidenav_nav_item" *ngFor="let data of navData">
+            <a  class="sidenav_nav_link" [routerLink]="[data.routerLink]">
+                <i class="sidenav_link_icon" [class]="data.icon"></i>
+                <span class="sidenav_link_text" *ngIf="collapsed">{{data.label}}</span>
+            </a>
+        </li>
+    </ul>
+</div>
