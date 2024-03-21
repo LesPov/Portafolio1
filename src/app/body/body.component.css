@@ -1,0 +1,15 @@
+.body {
+    width: calc(80% - 8rem);
+    height: 100vh;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    transition: all .5s ease;
+    background: #f4f7fa;
+    padding: 3rem;
+    border-radius: 15px;
+
+}
+
