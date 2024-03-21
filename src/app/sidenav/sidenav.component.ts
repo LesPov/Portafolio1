@@ -1,11 +1,8 @@
-import { Component, EventEmitter, HostListener, OnInit, Output, Inject } from '@angular/core';
+import { Component, EventEmitter,Output, Inject } from '@angular/core';
 import { navbarData } from './nav-data';
 import { CommonModule } from '@angular/common';
-import { animate, keyframes, style, transition, trigger } from '@angular/animations';
 import { RouterModule } from '@angular/router';
 import { BodyComponent } from '../body/body.component';
-import { PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
 
 interface SidenNavToggle {
   screenWidth: number;
