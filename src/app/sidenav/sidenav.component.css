@@ -5,13 +5,12 @@
     position: fixed;
     z-index: 1;
     bottom: 0;
+    right: 10px;
     width: 8rem;
     height: 80vh;
     border-radius: 15px;
 
 }
-
-
 
 
 .sidenav_nav {
