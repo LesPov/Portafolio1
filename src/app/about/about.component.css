@@ -1,0 +1,26 @@
+.sobre_mi{
+margin: 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 30%;
+    height: 3px;
+    margin-left: 20px;
+    background-color: #000dfa; /* Puedes cambiar el color según tus preferencias */
+  }
+
+  .container{
+    height: auto;
+    width: auto;
+    display: flex;
+  }
+
+  .container p {
+    margin-top: 10px;
+    line-height: 22px;
+  }
