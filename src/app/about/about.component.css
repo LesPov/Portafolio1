@@ -11,7 +11,7 @@
     width: 30%;
     height: 3px;
     margin-left: 20px;
-    background-color: #000dfa;
+    background-color: #00b6ff;
 }
 
 .section {
@@ -24,6 +24,12 @@
 .section p {
     margin-top: 10px;
     line-height: 22px;
+    font-size: 18px;
+    width: 100%;
+    /* Hacer que el texto ocupe todo el ancho disponible */
+    text-align: justify;
+    /* Justificar el texto para que se vea bien */
+
 }
 
 .wrapper {
@@ -32,7 +38,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .container {
@@ -52,7 +70,6 @@
     display: flex;
     align-items: flex-end;
     transition: .6s cubic-bezier(.28, -0.03, 0, .99);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 .card>.row {
@@ -90,12 +107,12 @@
     top: 32px;
 }
 
-.description h4 {
-    text-transform: uppercase;
+.description h3 {
     color: #000;
     margin: 0;
-    /* Elimina los márgenes predeterminados */
 }
+
+
 
 .description p {
     color: #434343;
@@ -103,6 +120,14 @@
     /* Elimina los márgenes predeterminados */
     text-align: left;
     /* Alinea el texto a la izquierda */
+    font-weight: 500;
+
+}
+
+.c1 p {
+    color: #282828;
+
+
 }
 
 input {
@@ -120,17 +145,31 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    background-color: #e012a231;
+    background-color: #0089ff;
+    box-shadow: 0px 0px 10px 1px #0089ff;
+    border: 0.5px solid #48ffff34;
+
 }
 
 .card[for="c2"] {
-    background-color: #DAF7A6;
+    background-color: #00b6ff;
+    box-shadow: 0px 0px 10px 1px #00b6ff;
+    border: 0.5px solid #00eaff2a;
+
+
 }
 
 .card[for="c3"] {
-    background-color: #F9E79F;
+    background-color: #00eaff;
+    box-shadow: 0px 0px 10px 1px #00eaff;
+    border: 0.5px solid #00b7ff35;
+
+
 }
 
 .card[for="c4"] {
-    background-color: #D7BDE2;
+    background-color: #48ffff;
+    box-shadow: 0px 0px 10px 1px #48ffff;
+    border: 0.1px solid #0088ff2f;
+
 }
