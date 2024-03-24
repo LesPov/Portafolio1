@@ -1,11 +1,3 @@
-* {
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
-}
-
 .sobre_mi {
     margin: 0;
 }
@@ -42,8 +34,7 @@
 }
 
 .container {
-    padding: 10px 2%;
-    padding-bottom: 100px;
+    padding: 10px;
 }
 
 .container .heading {
@@ -51,8 +42,16 @@
     padding-bottom: 15px;
     color: #000000;
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    font-weight: 600;
+
     font-size: 20px;
 }
+
+.heading h1 {
+    font-weight: 500;
+
+}
+
 
 .container .box_container {
     display: grid;
@@ -61,27 +60,43 @@
 }
 
 .container .box_container .box {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
-    border-radius: 5px;
-    background: #8b0e9e5f;
+    border-radius: 15px;
     display: flex;
-    padding: 30px 20px;
+    padding: 10px 10px;
+
+}
+
+.b1 {
+    background: #ff00f21d;
+}
+
+.b2 {
+    background: #74b9ff29;
+}
+
+.container .box_container .box .icon {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 8px;
+    color: #ff00f2;
 }
 
 .container .box_container .box img {
     height: 80px;
 }
 
-.container .box_container .box h3 {
-    color: #444;
-    font-size: 22px;
-    padding: 10px 0;
+.container .box_container .box h4 {
+    color: #000000;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 500;
+
 }
 
 .container .box_container .box p {
     color: #777;
     font-size: 15px;
-    padding: 10px 0;
+    text-align: start;
 }
 
 .container .box_container .box .btn {
@@ -99,7 +114,7 @@
 }
 
 .container .box_container .box:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .3);
     transform: scale(1.02);
 }
 
@@ -107,4 +122,147 @@
     .container {
         padding: 20px;
     }
+}
+
+
+/* /////// */
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.wrapper .subtitle {
+    text-align: start;
+    padding-bottom: 15px;
+    color: #000000;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    font-weight: 600;
+
+    font-size: 20px;
+}
+
+.subtitle h1 {
+    font-weight: 500;
+
+}
+
+.container1 {
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card {
+    width: 80px;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+}
+
+.card>.row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+
+}
+
+.card>.row>.icon img {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    align-items: center;
+    margin: 11px 8px 230px 10px;
+}
+
+.card>.row>.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    height: 290px;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+    position: relative;
+    top: 26px;
+}
+
+.c1 h3 {
+    color: #000;
+    margin: 0;
+}
+
+.c2 h3 {
+    color: #ffffff !;
+    margin: 0;
+}
+
+.description p {
+    color: #434343;
+    margin: 0;
+    /* Elimina los márgenes predeterminados */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    font-weight: 500;
+
+}
+
+
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    width: 400px;
+}
+
+input:checked+label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+
+.card[for="c1"] {
+    box-shadow: 0px 0px 10px 1px #0000005c;
+    background-image: url('../../assets//img/montañismo.jpeg');
+
+}
+
+.card[for="c2"] {
+    box-shadow: 0px 0px 10px 1px #0000005c;
+    background-image: url('../../assets//img/space1.jpeg');
+
+
+}
+
+.card[for="c3"] {
+    box-shadow: 0px 0px 10px 1px #0000005c;
+    background-image: url('../../assets//img/musica.jpeg');
+
+
+}
+
+.card[for="c4"] {
+    box-shadow: 0px 0px 10px 1px #0000005c;
+    background-image: url('../../assets//img/tecnologia.jpeg');
+
 }
