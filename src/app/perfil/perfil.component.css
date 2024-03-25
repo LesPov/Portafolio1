@@ -5,7 +5,7 @@
 
 
 .imagen {
-    background: #0e46af;
+    background: #6b95e3f9;
     margin: 10px;
     position: fixed;
     z-index: 2;
@@ -27,7 +27,7 @@
 }
 
 .container {
-    background: #ffffff;
+    background: #fff;
     margin: 10px;
     position: fixed;
     margin-top: 5rem;
@@ -193,7 +193,7 @@ span {
 .buttons {
     display: flex;
     justify-content: center;
-    background: #0089ff;
+    background: #0e46af;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0 10px 0;

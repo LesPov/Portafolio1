@@ -13,7 +13,7 @@
     width: 30%;
     height: 3px;
     margin-left: 20px;
-    background-color: #00b6ff;
+    background-color: #0e46af;
 }
 
 .section {
@@ -75,10 +75,22 @@
 }
 
 .container .box_container .box .icon {
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 10px;
     margin-left: 8px;
-    color: #ff00f2;
+    margin-top: 5px;
+}
+
+.icon .fa-swatchbook {
+    color: #ff07f3;
+}
+
+.icon .fa-laptop-code {
+    color: #dbe700;
+}
+
+.icon .fa-code {
+    color: #e70049;
 }
 
 .container .box_container .box img {
@@ -147,9 +159,9 @@
     font-size: 20px;
 }
 
-.subtitle h1 {
-    font-weight: 500;
 
+.wrapper p {
+    margin-top: 0px !important;
 }
 
 .container1 {

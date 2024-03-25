@@ -13,7 +13,7 @@
     width: 30%;
     height: 3px;
     margin-left: 20px;
-    background-color: #00b6ff;
+    background-color: #0e46af;
 }
 
 
@@ -47,16 +47,16 @@
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
     font-weight: 550;
 
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
 
 .heading i {
-    font-size: 30px;
+    font-size: 22px;
     margin-right: 10px;
     margin-left: 8px;
-    color: #ff00f2;
+    color: #0e46af;
 }
 
 .container .box_container {
