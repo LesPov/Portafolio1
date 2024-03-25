@@ -1,11 +1,146 @@
-.resumen{
+.resumen {
+    margin: 0;
+}
+
+.title {
     display: flex;
     align-items: center;
-
 }
+
+
+
 .line {
     width: 30%;
     height: 3px;
     margin-left: 20px;
-    background-color: #000dfa; /* Puedes cambiar el color según tus preferencias */
-  }
+    background-color: #00b6ff;
+}
+
+
+.section {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section p {
+    margin-top: 10px;
+    line-height: 22px;
+    font-size: 15px;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 15px;
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.container .heading {
+    text-align: start;
+    padding-bottom: 15px;
+    color: #000000;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    font-weight: 550;
+
+    font-size: 25px;
+}
+
+
+
+.heading i {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 8px;
+    color: #ff00f2;
+}
+
+.container .box_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.container .box_container .box {
+    border-radius: 15px;
+    display: flex;
+    padding: 20px 25px;
+    height: 180px;
+}
+
+.b1 {
+    background: #ff00f21d;
+}
+
+.b2 {
+    background: #74b9ff29;
+}
+
+.container .box_container .box .text .experiencia__calendar {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container .box_container .box .text .experiencia__calendar i {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.container .box_container .box h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.container .box_container .box p {
+    color: #777;
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 5px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+
+}
+
+.container .box_container .box .img-1 {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.conte {
+    width: 50%;
+}
+
+.container .box_container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box_container .box .btn .btn:hover {
+    letter-spacing: 1px;
+}
+
+.container .box_container .box:hover {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .3);
+    transform: scale(1.02);
+}
+
+@media(max-width:768px) {
+    .container {
+        padding: 20px;
+    }
+}

@@ -5,7 +5,7 @@
 
 
 .imagen {
-    background: #152318;
+    background: #0e46af;
     margin: 10px;
     position: fixed;
     z-index: 2;
@@ -135,13 +135,13 @@ span {
     background: #dddddd7d;
     margin-top: 10px;
     flex-direction: column;
+    gap: 10px;
 }
 
 .cardperson {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
 }
 
 
@@ -152,7 +152,6 @@ span {
     font-size: 25px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Definición de la sombra */
 
 }
 
@@ -184,8 +183,8 @@ span {
 }
 
 .info_person p {
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 12px;
+    margin-top: 3px;
     color: #000;
     font-weight: 600;
 
@@ -197,7 +196,7 @@ span {
     background: #0089ff;
     padding: 10px;
     border-radius: 5px;
-    margin: 15px;
+    margin: 10px 0 10px 0;
 }
 
 .buttons .button_flex {

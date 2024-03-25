@@ -62,7 +62,7 @@
 
 .sidenav_nav .sidenav_link_text {
     opacity: 1;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -81,7 +81,7 @@
 
 .active .sidenav_link_text {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
 
 }
