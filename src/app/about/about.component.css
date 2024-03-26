@@ -8,12 +8,76 @@
 }
 
 
+.sobre_mi .text-animate2 {
+    width: 10rem;
+    position: relative;
+}
+
+.sobre_mi .text-animate2 h2 {
+    font-size: 2rem;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 0.1vw #ddd;
+    background: linear-gradient(to top, #ddd, #ffdede);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0;
+    transition: .6s;
+    letter-spacing: 2px;
+    animation: moveText1 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.sobre_mi .text-animate2 h2::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    height: 100%;
+    border-right: 3px solid #fff;
+    animation: moveCursorText1 5s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes moveText1 {
+
+    0%,
+    10%,
+    100% {
+        background-position: -10rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0rem 0;
+    }
+}
+
+@keyframes moveCursorText1 {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    85% {
+        opacity: 0;
+    }
+}
 
 .line {
     width: 30%;
     height: 3px;
     margin-left: 20px;
-    background-color: #0e46af;
+    background-color: #ffffff;
 }
 
 .section {
@@ -30,6 +94,7 @@
     width: 100%;
     text-align: justify;
     margin-bottom: 15px;
+    color: #cccccc9c;
 
 }
 
@@ -40,8 +105,7 @@
 .container .heading {
     text-align: start;
     padding-bottom: 15px;
-    color: #000000;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    color: #fff;
     font-weight: 600;
 
     font-size: 20px;
@@ -98,7 +162,7 @@
 }
 
 .container .box_container .box h4 {
-    color: #000000;
+    color: #ddd;
     font-size: 18px;
     padding-top: 10px;
     font-weight: 500;
@@ -111,15 +175,6 @@
     text-align: start;
 }
 
-.container .box_container .box .btn {
-    margin-top: 10px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
-}
 
 .container .box_container .box .btn .btn:hover {
     letter-spacing: 1px;
@@ -152,7 +207,7 @@
 .wrapper .subtitle {
     text-align: start;
     padding-bottom: 15px;
-    color: #000000;
+    color: #fff;
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
     font-weight: 600;
 
@@ -254,27 +309,27 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    box-shadow: 0px 0px 10px 1px #0000005c;
+    box-shadow: 0px 0px 4px 1px rgb(255 255 255 / 40%);
     background-image: url('../../assets//img/montañismo.jpeg');
 
 }
 
 .card[for="c2"] {
-    box-shadow: 0px 0px 10px 1px #0000005c;
+    box-shadow: 0px 0px 4px 1px rgb(255 255 255 / 40%);
     background-image: url('../../assets//img/space1.jpeg');
 
 
 }
 
 .card[for="c3"] {
-    box-shadow: 0px 0px 10px 1px #0000005c;
+    box-shadow: 0px 0px 4px 1px rgb(255 255 255 / 40%);
     background-image: url('../../assets//img/musica.jpeg');
 
 
 }
 
 .card[for="c4"] {
-    box-shadow: 0px 0px 10px 1px #0000005c;
+    box-shadow: 0px 0px 4px 1px rgb(255 255 255 / 40%);
     background-image: url('../../assets//img/tecnologia.jpeg');
 
 }

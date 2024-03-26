@@ -1,5 +1,5 @@
 .sidenav {
-    background: #ffffff;
+    background: #131313;
     margin: 10px;
     transition: all .5s ease;
     position: fixed;
@@ -10,7 +10,7 @@
     width: 8rem;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 2px rgb(255 255 255 / 17%);
 
 }
 
@@ -39,9 +39,8 @@
     height: 3rem;
     width: 100%;
     height: 100%;
-    background: #dddddd7d;
-
-    color: #676565;
+    background: #ffffff20;
+    color: #fff;
     border-radius: 15px;
     text-decoration: none;
     overflow: hidden;
@@ -67,28 +66,29 @@
 }
 
 .sidenav_nav .sidenav_nav_item .sidenav_nav_link:hover {
-    background: #0e46af;
-    color: #fff;
+    background: #fff;
+    color: #000;
     width: 100%;
 }
 
 .active {
-    background-color: #0e46af !important;
+    background-color: #fff !important;
     transition: all .5s ease;
 
 }
 
 
 .active .sidenav_link_text {
-    color: #fff;
+    color: #000;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
 
 }
 
 .active .sidenav_link_icon {
-    color: #fff;
-    margin-bottom: 15px;
-
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 900;
 
 }

@@ -5,12 +5,10 @@
 
 
 .imagen {
-    background: #6b95e3f9;
-    margin: 10px;
-    position: fixed;
+    background: #ffffff20;
+    margin: 5px;
     z-index: 2;
-    top: 0;
-    left: 95px;
+
     width: 150px;
     height: 150px;
     border-radius: 15px;
@@ -27,10 +25,9 @@
 }
 
 .container {
-    background: #fff;
+    background: #131313;
     margin: 10px;
     position: fixed;
-    margin-top: 5rem;
     z-index: 1;
     top: 0;
     left: 10px;
@@ -40,21 +37,22 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 2px rgb(255 255 255 / 17%);
 
 }
 
 h1 {
-    margin-top: 80px;
+    margin-top: 13px;
     font-size: 18px;
+    color: #fff;
 }
 
 span {
     padding: 10px;
-    background: #dddddd7d;
-    font-size: 14px;
+    background: #ffffff20;
+    font-size: 15px;
     font-weight: 700;
-    color: #292929;
+    color: #ccc;
     margin-top: 5px;
     border-radius: 10px;
 }
@@ -70,9 +68,9 @@ span {
 
 /* for all social containers*/
 .socialContainer {
-    background: #dddddd7d;
+    background: #ffffff20;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 30px;
     height: 30px;
     display: flex;
@@ -96,7 +94,7 @@ span {
 
 /* github*/
 .containerTwo {
-    color: #000;
+    color: #ffffff;
 
 }
 
@@ -132,7 +130,7 @@ span {
     padding: 15px;
     align-items: center;
     justify-content: center;
-    background: #dddddd7d;
+    background: #ffffff20;
     margin-top: 10px;
     flex-direction: column;
     gap: 10px;
@@ -156,19 +154,23 @@ span {
 }
 
 .cardperson .phone {
-    color: #ff0000;
+    color: #ea00ff;
+    background: #000;
 }
 
 .cardperson .email {
-    color: #369621;
+    color: #00b6ff;
+    background: #000;
 }
 
 .cardperson .map {
-    color: #a9164c;
+    color: #c81b1b;
+    background: #000;
 }
 
 .cardperson .regalo {
-    color: #ff00e1;
+    color: #dc6f09;
+    background: #000;
 }
 
 .info_person {
@@ -177,15 +179,15 @@ span {
 }
 
 .info_person h6 {
-    font-size: 12px;
-    color: #000000;
+    font-size: 13px;
+    color: #ccc;
     font-weight: 600;
 }
 
 .info_person p {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 3px;
-    color: #000;
+    color: #ccc;
     font-weight: 600;
 
 }
@@ -193,13 +195,19 @@ span {
 .buttons {
     display: flex;
     justify-content: center;
-    background: #0e46af;
+    background: #0200ff;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0 10px 0;
+
+}
+
+.buttons:hover {
+    transform: scale(1.1);
 }
 
 .buttons .button_flex {
     color: #fff;
     text-decoration: none;
+
 }
