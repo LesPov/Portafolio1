@@ -41,6 +41,70 @@
 
 }
 
+.perfil .text-animate2 {
+    width: 12rem;
+    position: relative;
+}
+
+.perfil .text-animate2 h1 {
+    font-size: 1rem;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 0.01vw #000;
+    background: linear-gradient(to top, #ddd, #ffdede);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0;
+    transition: .6s;
+    animation: moveText1 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.perfil .text-animate2 h1::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    height: 20px;
+    border-right: 3px solid #fff;
+    animation: moveCursorText1 5s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes moveText1 {
+
+    0%,
+    10%,
+    100% {
+        background-position: -12rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0rem 0;
+    }
+}
+
+@keyframes moveCursorText1 {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    85% {
+        opacity: 0;
+    }
+}
+
 h1 {
     margin-top: 13px;
     font-size: 18px;
