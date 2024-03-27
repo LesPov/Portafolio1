@@ -17,12 +17,13 @@
 }
 
 .resumen .text-animate2 {
-    width: 10rem;
+    width: 11rem;
     position: relative;
 }
 
 .resumen .text-animate2 h2 {
     font-size: 2rem;
+    font-weight: 800;
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
@@ -51,7 +52,7 @@
     0%,
     10%,
     100% {
-        background-position: -10rem 0;
+        background-position: -11rem 0;
     }
 
     65%,
@@ -212,12 +213,13 @@
 
 
 .habilidades .text-animate2 {
-    width: 12.5rem;
+    width: 14.5rem;
     position: relative;
 }
 
 .habilidades .text-animate2 h2 {
     font-size: 2rem;
+    font-weight: 800;
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
@@ -246,7 +248,7 @@
     0%,
     10%,
     100% {
-        background-position: -12.5rem 0;
+        background-position: -14.5rem 0;
     }
 
     65%,
