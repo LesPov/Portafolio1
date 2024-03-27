@@ -104,6 +104,7 @@
     padding: 10px;
     display: flex;
     gap: 20px;
+    margin-bottom: 15px;
 }
 
 .container .heading {
@@ -195,5 +196,74 @@
 @media(max-width:768px) {
     .container {
         padding: 20px;
+    }
+}
+
+
+
+
+
+.habilidades .text-animate2 {
+    width: 12.5rem;
+    position: relative;
+}
+
+.habilidades .text-animate2 h2 {
+    font-size: 2rem;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 0.1vw #ddd;
+    background: linear-gradient(to top, #ddd, #ffdede);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    transition: .6s;
+    letter-spacing: 2px;
+    animation: moveText 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.habilidades .text-animate2 h2::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    height: 100%;
+    border-right: 3px solid #fff;
+    animation: moveCursorText 5s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes moveText {
+
+    0%,
+    10%,
+    100% {
+        background-position: -12.5rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0rem 0;
+    }
+}
+
+@keyframes moveCursorText {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    85% {
+        opacity: 0;
     }
 }
