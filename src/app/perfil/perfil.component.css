@@ -5,27 +5,29 @@
 
 
 .imagen {
-    background: #ffffff20;
+    background: #5fcdd94a;
     margin: 5px;
     z-index: 2;
-
-    width: 150px;
-    height: 150px;
-    border-radius: 15px;
+    width: 240px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Definición de la sombra */
-
-
+    max-width: 100%;
+    max-height: 240px; 
+    overflow: hidden; 
+    position: relative;
 }
 
 .imagen img {
-    width: 150px;
-    height: 150px;
+    width: 280px;
+    height: 300px;
     border-radius: 15px;
+    margin-left: -30px;
 }
 
+
+
 .container {
-    background: #000;
+    background: #0f0d0d;
     margin: 10px;
     position: fixed;
     z-index: 1;
@@ -37,7 +39,7 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 71%);
+    box-shadow: 0px 0px 6px 2px #5fcdd980;
 
 }
 
@@ -51,7 +53,7 @@
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #ddd, #ffdede);
+    background: linear-gradient(to top, #fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0;
@@ -112,11 +114,11 @@ h1 {
 }
 
 span {
-    padding: 10px;
-    background: #ffffff20;
+    padding: 5px;
+    background: #ddd;
     font-size: 15px;
     font-weight: 700;
-    color: #ccc;
+    color: #fff;
     margin-top: 5px;
     border-radius: 10px;
 }
@@ -132,7 +134,7 @@ span {
 
 /* for all social containers*/
 .socialContainer {
-    background: #ffffff20;
+    background: #ddd;
     border-radius: 5px;
     margin-top: 5px;
     width: 30px;
@@ -158,7 +160,7 @@ span {
 
 /* github*/
 .containerTwo {
-    color: #ffffff;
+    color: #161616;
 
 }
 
@@ -187,16 +189,11 @@ span {
 
 /* //////// */
 .info {
-    width: fit-content;
-    height: fit-content;
     display: flex;
-    border-radius: 10px;
-    padding: 15px;
     align-items: center;
     justify-content: center;
-    background: #ffffff20;
-    margin-top: 10px;
     flex-direction: column;
+    margin-top: 15px;
     gap: 10px;
 }
 
@@ -209,32 +206,34 @@ span {
 
 
 .cardperson i {
-    background-color: #fff;
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 1px #4e4ed952;
 
 }
 
 .cardperson .phone {
-    color: #ea00ff;
+    color: #5FCDD9;
     background: #000;
 }
 
 .cardperson .email {
-    color: #00b6ff;
+
     background: #000;
+    color: #5FCDD9;
 }
 
 .cardperson .map {
-    color: #c81b1b;
+
     background: #000;
+    color: #5FCDD9;
 }
 
 .cardperson .regalo {
-    color: #dc6f09;
+
     background: #000;
+    color: #5FCDD9;
 }
 
 .info_person {
@@ -259,11 +258,12 @@ span {
 .buttons {
     display: flex;
     justify-content: center;
-    background: #0200ff;
+    background: #5fcdd94a;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0 10px 0;
     cursor: pointer;
+    font-weight: 700;
 
 }
 

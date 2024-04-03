@@ -22,7 +22,7 @@
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #ddd, #ffdede);
+    background: linear-gradient(to top, #fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0;
