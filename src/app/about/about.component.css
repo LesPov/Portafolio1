@@ -19,69 +19,17 @@
 .sobre_mi .text-animate2 h2 {
     font-size: 2rem;
     font-weight: 800;
-    color: transparent;
+    color: wheat;
     text-align: center;
-    -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #fff, #fff);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: 0;
-    transition: .6s;
-    letter-spacing: 2px;
-    animation: moveText1 5s linear infinite;
-    animation-delay: 1s;
-}
-
-.sobre_mi .text-animate2 h2::before {
-    content: "";
-    position: absolute;
-    left: -2px;
-    height: 100%;
-    border-right: 3px solid #fff;
-    animation: moveCursorText1 5s linear infinite;
-    animation-delay: 1s;
-}
-
-@keyframes moveText1 {
-
-    0%,
-    10%,
-    100% {
-        background-position: -11rem 0;
-    }
-
-    65%,
-    85% {
-        background-position: 0rem 0;
-    }
-}
-
-@keyframes moveCursorText1 {
-
-    0%,
-    10%,
-    100% {
-        width: 0;
-    }
-
-    65%,
-    78%,
-    85% {
-        width: 100%;
-        opacity: 1;
-    }
-
-    75%,
-    85% {
-        opacity: 0;
-    }
+    
 }
 
 .line {
     width: 30%;
     height: 3px;
+    border-radius: 10%;
     margin-left: 20px;
-    background-color: #ffffff;
+    background-color: #5fcdd9e1;
 }
 
 .section {
@@ -315,27 +263,27 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    box-shadow: 0px 0px 10px 1px #323131;
+    box-shadow: 0px 0px 5px #5fcdd980;
     background-image: url('../../assets//img/montañismo.jpeg');
 
 }
 
 .card[for="c2"] {
-    box-shadow: 0px 0px 10px 1px #323131;
+    box-shadow: 0px 0px 5px #5fcdd980;
     background-image: url('../../assets//img/space1.jpeg');
 
 
 }
 
 .card[for="c3"] {
-    box-shadow: 0px 0px 10px 1px #323131;
+    box-shadow: 0px 0px 5px #5fcdd980;
     background-image: url('../../assets//img/musica.jpeg');
 
 
 }
 
 .card[for="c4"] {
-    box-shadow: 0px 0px 10px 1px #323131;
+    box-shadow: 0px 0px 5px #5fcdd980;
     background-image: url('../../assets//img/tecnologia.jpeg');
 
 }

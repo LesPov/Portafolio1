@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { HeaderComponent } from './header/header.component';
 
 interface SideNavToggle {
   screenWidth: number;
@@ -15,7 +16,8 @@ interface SideNavToggle {
     RouterOutlet,
     BodyComponent,
     SidenavComponent,
-    PerfilComponent
+    PerfilComponent,
+    HeaderComponent
     
   ],
   templateUrl: './app.component.html',

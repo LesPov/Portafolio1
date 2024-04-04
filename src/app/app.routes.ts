@@ -1,7 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgModule } from '@angular/core';
-import { PageComponent } from './page/page.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ProyectComponent } from './proyect/proyect.component';

@@ -3,29 +3,6 @@
     height: auto;
 }
 
-
-.imagen {
-    background: #5fcdd94a;
-    margin: 5px;
-    z-index: 2;
-    width: 240px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
-    max-height: 240px; 
-    overflow: hidden; 
-    position: relative;
-}
-
-.imagen img {
-    width: 280px;
-    height: 300px;
-    border-radius: 15px;
-    margin-left: -30px;
-}
-
-
-
 .container {
     background: #0f0d0d;
     margin: 10px;
@@ -39,21 +16,61 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 0px 6px 2px #5fcdd980;
+    box-shadow: inset  0px 0px 6px 2px #00e5ffa8;
 
 }
 
+
+.imagen {
+    background: #5fcdd94a;
+    margin: 5px;
+    z-index: 2;
+    width: 240px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    max-height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagen img {
+    width: 260px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: -25px;
+    transform: rotate(357deg);
+
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+span {
+    padding: 5px;
+    background: #ddd;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
 .perfil .text-animate2 {
-    width: 12rem;
+    width: 14rem;
     position: relative;
 }
 
 .perfil .text-animate2 h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #fff, #fff);
+    background: linear-gradient(to top, wheat, wheat);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0;
@@ -65,9 +82,10 @@
 .perfil .text-animate2 h1::before {
     content: "";
     position: absolute;
+    top: 12px;
     left: -2px;
     height: 20px;
-    border-right: 3px solid #fff;
+    border-right: 3px solid wheat;
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
@@ -77,7 +95,7 @@
     0%,
     10%,
     100% {
-        background-position: -12rem 0;
+        background-position: -14rem 0;
     }
 
     65%,
@@ -107,84 +125,7 @@
     }
 }
 
-h1 {
-    margin-top: 13px;
-    font-size: 18px;
-    color: #fff;
-}
 
-span {
-    padding: 5px;
-    background: #ddd;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 5px;
-    border-radius: 10px;
-}
-
-.card {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* for all social containers*/
-.socialContainer {
-    background: #ddd;
-    border-radius: 5px;
-    margin-top: 5px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    text-decoration: none;
-    transition-duration: .3s;
-}
-
-/* linkdin*/
-.containerOne {
-    color: #00b6ff;
-}
-
-/* linkdin*/
-.containerOne:hover {
-    background-color: #000cfa3e;
-    transform: scale(1.3);
-}
-
-/* github*/
-.containerTwo {
-    color: #161616;
-
-}
-
-/* github*/
-.containerTwo:hover {
-    background-color: #00000051;
-    transform: scale(1.3);
-}
-
-/* instagram*/
-.containerThree {
-    color: #ea07ff;
-}
-
-/* instagram*/
-.containerThree:hover {
-    background-color: #a81bb56a;
-    transform: scale(1.3);
-}
-
-.socialContainer:active {
-    transform: scale(0.9);
-    transition-duration: .3s;
-}
 
 
 /* //////// */
@@ -193,7 +134,7 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 20px;
     gap: 10px;
 }
 
@@ -209,31 +150,31 @@ span {
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
-    box-shadow: 0 0 5px 1px #4e4ed952;
+    box-shadow: 0 0 4px 0.5px #ff6b00;
 
 }
 
 .cardperson .phone {
-    color: #5FCDD9;
+    color: wheat;
     background: #000;
 }
 
 .cardperson .email {
 
     background: #000;
-    color: #5FCDD9;
+    color: wheat;
 }
 
 .cardperson .map {
 
     background: #000;
-    color: #5FCDD9;
+    color: wheat;
 }
 
 .cardperson .regalo {
 
     background: #000;
-    color: #5FCDD9;
+    color: wheat;
 }
 
 .info_person {
@@ -261,7 +202,7 @@ span {
     background: #5fcdd94a;
     padding: 10px;
     border-radius: 5px;
-    margin: 10px 0 10px 0;
+    margin: 16px 0 10px 0;
     cursor: pointer;
     font-weight: 700;
 
