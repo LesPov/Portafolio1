@@ -19,7 +19,7 @@
 .sobre_mi .text-animate2 h2 {
     font-size: 2rem;
     font-weight: 800;
-    color: wheat;
+    color: #fff;
     text-align: center;
     
 }
@@ -29,7 +29,7 @@
     height: 3px;
     border-radius: 10%;
     margin-left: 20px;
-    background-color: #5fcdd9e1;
+    background-color: #00e5ff94;
 }
 
 .section {

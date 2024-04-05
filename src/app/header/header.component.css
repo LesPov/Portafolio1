@@ -1,18 +1,18 @@
 .header {
-    background: #0f0d0d;
+    background: #0e75a912;
     margin: 10px;
     transition: all .5s ease;
     position: relative;
     z-index: 1;
     top: 0;
-    left: 360px;
-    width: 50rem;
+    margin-left: 23rem;
+    width: calc(100% - 34rem);
     display: flex;
     height: 110px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    box-shadow: inset  0px 0px 6px 2px #5fcdd980;
+    box-shadow: inset  0px 0px 6px 2px #00e5ff52;
 
 }
 
@@ -29,12 +29,12 @@ h2 {
         1px -1px 0 #00e5ff,
         1px 1px 0 #00e5ff,
         -1px 1px 0 #00e5ff;
-    text-shadow: 0px 0px 6px #1bc1d3;
+    text-shadow: 0px 0px 6px #00e5ff;
     top: 0;
 }
 
 .wave {
-    color: #1bc1d3;
+    color: #00e5ff;
     animation: wave 3s ease-in-out infinite;
     top: 0;
 
@@ -100,7 +100,7 @@ h2 {
     overflow: hidden;
     text-decoration: none;
     transition-duration: .3s;
-    box-shadow: 0 0 5px 1px #5fcdd980;
+    box-shadow: inset 0 0 5px 0.5px #00e5ff52;
 
 }
 
@@ -114,6 +114,8 @@ h2 {
 .containerOne:hover {
     background-color: #000cfa3e;
     transform: scale(1.3);
+    box-shadow:none;
+
 }
 
 /* github*/
@@ -127,6 +129,8 @@ h2 {
     background-color: #fff;
     transform: scale(1.3);
     color: #000;
+    box-shadow:none;
+
 }
 
 /* instagram*/
@@ -138,9 +142,16 @@ h2 {
 .containerThree:hover {
     background-color: #a81bb56a;
     transform: scale(1.3);
+    box-shadow:none;
+
 }
 
 .socialContainer:active {
     transform: scale(0.9);
     transition-duration: .3s;
 }
+
+
+  
+  
+  

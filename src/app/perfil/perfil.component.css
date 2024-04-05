@@ -4,7 +4,7 @@
 }
 
 .container {
-    background: #0f0d0d;
+    background: #0e75a912;
     margin: 10px;
     position: fixed;
     z-index: 1;
@@ -16,13 +16,13 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset  0px 0px 6px 2px #00e5ffa8;
+    box-shadow: inset  0px 0px 6px 2px #00e5ff52;
 
 }
 
 
 .imagen {
-    background: #5fcdd94a;
+    background: #000;
     margin: 5px;
     z-index: 2;
     width: 240px;
@@ -32,6 +32,8 @@
     max-height: 220px;
     overflow: hidden;
     position: relative;
+    box-shadow: inset 0px 0px 18px 0px #00e5ff94;
+
 }
 
 .imagen img {
@@ -70,7 +72,7 @@ span {
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, wheat, wheat);
+    background: linear-gradient(to top, #fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0;
@@ -85,7 +87,7 @@ span {
     top: 12px;
     left: -2px;
     height: 20px;
-    border-right: 3px solid wheat;
+    border-right: 3px solid #fff;
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
@@ -150,31 +152,38 @@ span {
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
-    box-shadow: 0 0 4px 0.5px #ff6b00;
+    box-shadow:inset 0 0 7px 1px #ff6b004d;
+    transition: .3s;
+
+}
+.cardperson i:hover {
+    transform: scale(1.1);
+    background: #ff6a0029;
 
 }
 
+
 .cardperson .phone {
-    color: wheat;
+    color: #ff6b00;
     background: #000;
 }
 
 .cardperson .email {
 
     background: #000;
-    color: wheat;
+    color: #ff6b00;
 }
 
 .cardperson .map {
 
     background: #000;
-    color: wheat;
+    color: #ff6b00;
 }
 
 .cardperson .regalo {
 
     background: #000;
-    color: wheat;
+    color: #ff6b00;
 }
 
 .info_person {
@@ -199,17 +208,21 @@ span {
 .buttons {
     display: flex;
     justify-content: center;
-    background: #5fcdd94a;
+    background: #000;
     padding: 10px;
     border-radius: 5px;
-    margin: 16px 0 10px 0;
+    margin: 15px 0 15px 0;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 600;
+    box-shadow: inset 0 0 5px 0.5px #00e5ff52;
 
 }
 
 .buttons:hover {
     transform: scale(1.1);
+    box-shadow: inset  0px 0px 6px 2px #ff6b00;
+    background: #ff6a0029;
+
 }
 
 .buttons .button_flex {
