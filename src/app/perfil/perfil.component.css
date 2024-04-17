@@ -16,7 +16,7 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset  0px 0px 6px 2px #00e5ff52;
+    box-shadow: inset 0px 0px 6px 2px #00e5ff52;
 
 }
 
@@ -37,11 +37,13 @@
 }
 
 .imagen img {
-    width: 260px;
-    height: 300px;
+    width: 270px;
+    height: 310px;
     border-radius: 15px;
-    margin-left: -25px;
+    margin-left: -30px;
+    filter: drop-shadow(-1px -1px 10px #00e5ff6f);
     transform: rotate(357deg);
+    margin-bottom: 5px;
 
 }
 
@@ -152,10 +154,11 @@ span {
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
-    box-shadow:inset 0 0 7px 1px #ff6b004d;
+    box-shadow: inset 0 0 7px 1px #ff6b004d;
     transition: .3s;
 
 }
+
 .cardperson i:hover {
     transform: scale(1.1);
     background: #ff6a0029;
@@ -220,7 +223,7 @@ span {
 
 .buttons:hover {
     transform: scale(1.1);
-    box-shadow: inset  0px 0px 6px 2px #ff6b00;
+    box-shadow: inset 0px 0px 6px 2px #ff6b00;
     background: #ff6a0029;
 
 }

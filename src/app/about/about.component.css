@@ -29,7 +29,8 @@
     height: 3px;
     border-radius: 10%;
     margin-left: 20px;
-    background-color: #00e5ff94;
+    background-color: #ff6b00;
+    box-shadow:  0px 0px 5px 1px #ff6b00;
 }
 
 .section {
