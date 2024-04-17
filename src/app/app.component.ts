@@ -4,6 +4,7 @@ import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { HeaderComponent } from './header/header.component';
+import { PointsatarComponent } from './pointsatar/pointsatar.component';
 
 interface SideNavToggle {
   screenWidth: number;
@@ -17,7 +18,8 @@ interface SideNavToggle {
     BodyComponent,
     SidenavComponent,
     PerfilComponent,
-    HeaderComponent
+    HeaderComponent,
+    PointsatarComponent
     
   ],
   templateUrl: './app.component.html',

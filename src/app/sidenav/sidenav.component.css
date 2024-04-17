@@ -3,7 +3,7 @@
     margin: 10px;
     transition: all .5s ease;
     position: fixed;
-    margin-top: 110px;
+    margin-top: 143px;
     z-index: 1;
     top: 0;
     right: 10px;
@@ -27,7 +27,7 @@
 
 .sidenav .sidenav_nav .sidenav_nav_item {
     position: relative;
-    height: 5rem;
+    height: 74px;
     width: 100%;
     margin-bottom: 4px;
     transition: all 0.5s ease;
