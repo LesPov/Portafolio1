@@ -48,87 +48,22 @@
 }
 
 h1 {
-    margin-top: 5px;
+
+    margin-top: 10px;
     margin-bottom: 5px;
-    font-size: 18px;
-    color: #fff;
+    font-size: 20px;
+    color: white;
 }
 
-span {
-    padding: 5px;
-    background: #ddd;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 5px;
-    border-radius: 10px;
-}
 
 .perfil .text-animate2 {
+
     width: 14rem;
     position: relative;
+    display: flex;
+    display: flex;
+    justify-content: center;
 }
-
-.perfil .text-animate2 h1 {
-    font-size: 1.5rem;
-    color: transparent;
-    text-align: center;
-    -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #fff, #fff);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: 0;
-    transition: .6s;
-    animation: moveText1 5s linear infinite;
-    animation-delay: 1s;
-}
-
-.perfil .text-animate2 h1::before {
-    content: "";
-    position: absolute;
-    top: 12px;
-    left: -2px;
-    height: 20px;
-    border-right: 3px solid #fff;
-    animation: moveCursorText1 5s linear infinite;
-    animation-delay: 1s;
-}
-
-@keyframes moveText1 {
-
-    0%,
-    10%,
-    100% {
-        background-position: -14rem 0;
-    }
-
-    65%,
-    85% {
-        background-position: 0rem 0;
-    }
-}
-
-@keyframes moveCursorText1 {
-
-    0%,
-    10%,
-    100% {
-        width: 0;
-    }
-
-    65%,
-    78%,
-    85% {
-        width: 100%;
-        opacity: 1;
-    }
-
-    75%,
-    85% {
-        opacity: 0;
-    }
-}
-
 
 
 
@@ -154,8 +89,8 @@ span {
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
-    box-shadow: inset 0 0 7px 1px #ff6b004d;
     transition: .3s;
+    box-shadow: inset 0px 0px 14px 0px #0b212c;
 
 }
 
@@ -167,26 +102,26 @@ span {
 
 
 .cardperson .phone {
-    color: #ff6b00;
-    background: #000;
+    color: #000;
+    background: #fff;
 }
 
 .cardperson .email {
 
-    background: #000;
-    color: #ff6b00;
+    color: #000;
+    background: #fff;
 }
 
 .cardperson .map {
 
-    background: #000;
-    color: #ff6b00;
+    color: #000;
+    background: #fff;
 }
 
 .cardperson .regalo {
 
-    background: #000;
-    color: #ff6b00;
+    color: #000;
+    background: #fff;
 }
 
 .info_person {
