@@ -17,53 +17,102 @@
     padding: 22px 35px 22px 35px;
     gap: 10px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-}
-
-.nav_btns{
-    display: flex;
-    color: #00e5ff;
-    border: 1px solid #ff6b00;
-    gap: 15px;
-    width: 60px;
     justify-content: center;
-    border-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
-
-}
-.nav_btns::before{
-    content: "";
-    position: absolute;
-    width: 1px;
-    left: 62px;
-    height: 25px;
-    border-right: 2px solid #ff6b00;
-    box-shadow: 0px 0px 6px #ff6b00;
 
 }
 
-.nav_btns_stars{
+.nav_btns {
     display: flex;
-    color: #00e5ff;
-    border: 1px solid #ff6b00;
-    gap: 15px;
-    width: 100px;
     justify-content: center;
-    border-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
-}
-.nav_btns_stars::before{
-    content: "";
-    position: absolute;
-    width: 1px;
-    left: 43px;
-    height: 25px;
-    border-right: 2px solid #ff6b00;
-    box-shadow: 0px 0px 6px #ff6b00;
 
 }
+
+.moon {
+    display: flex;
+    background: #000;
+    border: 1px solid #ff6b00;
+    width: 30px;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0px 0px 6px #ff6b00;
+    height: 25px;
+
+}
+.uil-moon{
+    margin-top:2px;
+}
+
+
+
 
 .change-theme {
     cursor: pointer;
+
+}
+
+.bx {
+    color: #ccc;
+
+}
+
+.nav_btns_stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.nav_btns_stars span {
+    background: #002639;
+    border-radius: 8px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+}
+
+.nav_btns_stars p {
+    font-size: 12px;
+
+}
+
+.music {
+    display: flex;
+    background: #000;
+    border: 1px solid #ff6b00;
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 6px #ff6b00;
+    align-items: center;
+
+}
+
+.star {
+    display: flex;
+    background: #000;
+    border: 1px solid #ff6b00;
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0px 0px 6px #ff6b00;
+    align-items: center;
+}
+
+.puntos{
+    display: flex;                                                                  
+    background: #000;
+    border: 1px solid #ff6b00;
+    width: 80px;
+    height: 25px;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 6px #ff6b00;
+    align-items: center;
 }
