@@ -1,5 +1,5 @@
 .header {
-    background: #00090f;
+    background: var(--backgraund--componets);
     margin: 10px;
     transition: all .5s ease;
     position: relative;
@@ -12,7 +12,7 @@
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    box-shadow: inset  0px 0px 6px 2px #00e5ff52;
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
 
 }
 
@@ -89,7 +89,7 @@ h2 {
 
 /* for all social containers*/
 .socialContainer {
-    background: #000000;
+    background: var();
     border-radius: 5px;
     margin-top: 5px;
     width: 30px;
@@ -100,7 +100,7 @@ h2 {
     overflow: hidden;
     text-decoration: none;
     transition-duration: .3s;
-    box-shadow: inset 0px 0px 5px 1px #ff6b00;
+    box-shadow:  0px 0px 5px 0px ;
 
 }
 

@@ -4,7 +4,7 @@
 }
 
 .container {
-    background: #0e75a912;
+    background: var(--backgraund--componets);
     margin: 10px;
     position: fixed;
     z-index: 1;
@@ -16,23 +16,22 @@
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0px 0px 6px 2px #00e5ff52;
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
 
 }
 
 
 .imagen {
-    background: #000;
+    background: var(--backgraund--interior--img);
     margin: 5px;
     z-index: 2;
     width: 240px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     max-height: 220px;
     overflow: hidden;
     position: relative;
-    box-shadow: inset 0px 0px 18px 0px #00e5ff94;
+    box-shadow: inset 0px 0px 18px 0px var(--border-shadow-interior);
 
 }
 
@@ -41,7 +40,7 @@
     height: 310px;
     border-radius: 15px;
     margin-left: -30px;
-    filter: drop-shadow(-1px -1px 10px #00e5ff6f);
+    filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior));
     transform: rotate(357deg);
     margin-bottom: 5px;
 
@@ -73,7 +72,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 13px;
     gap: 10px;
 }
 
@@ -90,13 +89,16 @@ h1 {
     font-size: 25px;
     border-radius: 5px;
     transition: .3s;
-    box-shadow: inset 0px 0px 14px 0px #0b212c;
+    border: 1px solid #000;
+    box-shadow: inset 0px 0px 14px 3px #0b212c;
 
 }
 
 .cardperson i:hover {
     transform: scale(1.1);
-    background: #ff6a0029;
+    background: #00000029;
+    color: #ffff;
+    box-shadow: inset 0px 0px 14px 0px #00e5ff94;
 
 }
 

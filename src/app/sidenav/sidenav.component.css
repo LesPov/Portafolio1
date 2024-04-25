@@ -1,5 +1,5 @@
 .sidenav {
-    background: #0e75a912;
+    background: var(--backgraund--componets);
     margin: 10px;
     transition: all .5s ease;
     position: fixed;
@@ -10,7 +10,7 @@
     width: 8rem;
     height: auto;
     border-radius: 15px;
-    box-shadow: inset 0px 0px 6px 2px #00e5ff52;
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
 }
 
 

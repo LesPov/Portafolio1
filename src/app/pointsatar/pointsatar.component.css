@@ -1,5 +1,5 @@
 .pointerstar {
-    background: #0e75a912;
+    background: var(--backgraund--componets);
     margin: 10px;
     transition: all .5s ease;
     position: fixed;
@@ -10,8 +10,8 @@
     width: 8rem;
     height: auto;
     border-radius: 15px;
-    box-shadow: inset 0px 0px 6px 2px #00e5ff52;
-}
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
+} 
 
 .status {
     padding: 22px 35px 22px 35px;
@@ -32,24 +32,33 @@
 .moon {
     display: flex;
     background: #000;
-    border: 1px solid #ff6b00;
+    border: 1px solid #737270;
     width: 30px;
     justify-content: center;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
+    box-shadow: 0px 0px 6px #737270;
     height: 25px;
 
 }
-.uil-moon{
-    margin-top:2px;
+
+.moon:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+.uil-moon {
+    margin-top: 2px;
 }
 
 
 
 
-.change-theme {
+.change-theme:hover {
     cursor: pointer;
+    color: #ffffff;
 
 }
 
@@ -80,39 +89,49 @@
 .music {
     display: flex;
     background: #000;
-    border: 1px solid #ff6b00;
+    border: 1px solid #737270;
     width: 30px;
     height: 25px;
     justify-content: center;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
+    box-shadow: 0px 0px 6px #737270;
     align-items: center;
 
+}
+
+.music:hover {
+    transform: scale(1.1);
 }
 
 .star {
     display: flex;
     background: #000;
-    border: 1px solid #ff6b00;
+    border: 1px solid #737270;
     width: 30px;
     height: 25px;
     justify-content: center;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
+    box-shadow: 0px 0px 6px #737270;
     align-items: center;
 }
 
-.puntos{
-    display: flex;                                                                  
+.star:hover {
+    transform: scale(1.1);
+ 
+
+}
+
+.puntos {
+    display: flex;
     background: #000;
-    border: 1px solid #ff6b00;
+    border: 1px solid #737270;
     width: 80px;
     height: 25px;
     justify-content: center;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    box-shadow: 0px 0px 6px #ff6b00;
+    box-shadow: 0px 0px 6px #737270;
     align-items: center;
 }
