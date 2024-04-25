@@ -1,5 +1,5 @@
 .header {
-    background: var(--backgraund--componets);
+    background: var(--backgraund-componets);
     margin: 10px;
     transition: all .5s ease;
     position: relative;
