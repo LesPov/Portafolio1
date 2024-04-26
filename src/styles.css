@@ -23,7 +23,7 @@ body {
 
     --color-blanco-texto: hsl(76, 100%, 100%);
     --color-negro-texto: hsl(0, 100%, 0%);
-    --color-gris-texto: hsl(0, 0%, 80%);
+    --color-gris-texto: hsl(0, 0%, 63%);
     --sombra-cards-personales: hsl(200, 60%, 11%);
 
     --backgraund-hover-negro-cards-social: hsl(0, 100%, 0%);
@@ -37,6 +37,14 @@ body {
 
     --color-azul-neon:hsl(186, 100%, 50%);
     --color-borde-azul:hsl(186, 100%, 50%);
+
+
+    /* ///////////////////////about/////////////// */
+    --color-texto-blanco:hsl(0, 0%, 100%);
+
+    --color-b1:hsla(303, 100%, 50%, 0.114);
+    --color-b2:hsla(210, 100%, 73%, 0.161);
+
 }
 
 
@@ -51,7 +59,7 @@ body.dark-theme {
 
     --color-blanco-texto: hsl(0, 0%, 0%);
     --color-negro-texto: hsl(0, 0%, 100%);
-    --color-gris-texto: hsl(0, 0%, 0%);
+    --color-gris-texto: hsl(0, 0%, 14%);
     --sombra-cards-personales: hsl(0, 0%, 27%);
 
     --backgraund-hover-negro-cards-social: hsl(0, 0%, 100%);
@@ -65,5 +73,10 @@ body.dark-theme {
 
      --color-azul-neon:hsl(186, 100%, 50%);
      --color-borde-azul:hsl(0, 0%, 0%);
+
+    /* ///////////////////////about/////////////// */
+--color-texto-blanco:hsl(0, 0%, 100%);
+    --color-b1:hsl(303, 100%, 20.87%);
+    --color-b2:hsla(210, 100%, 73%, 0.404);
 
 }

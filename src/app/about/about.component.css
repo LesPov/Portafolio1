@@ -23,8 +23,7 @@
     font-weight: 800;
     color: transparent;
     text-align: center;
-    -webkit-text-stroke: 0.01vw #000;
-    background: linear-gradient(to top, #fff, #fff);
+    background: linear-gradient(to top, var(--color-blanco-texto), var(--color-blanco-texto));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -40,7 +39,7 @@
     top: 8px;
     left: 1px;
     height: 28px;
-    border-right: 3px solid #fff;
+    border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
@@ -50,7 +49,7 @@
     0%,
     10%,
     100% {
-        background-position: -11rem 0;
+        background-position: -10.5rem 0;
     }
 
     65%,
@@ -85,8 +84,8 @@
     height: 3px;
     border-radius: 10%;
     margin-left: 20px;
-    background-color: #ff6b00;
-    box-shadow:  0px 0px 5px 1px #ff6b00;
+    background-color: var(--color-naranga-neon);
+    box-shadow:  0px 0px 5px 1px var(--color-naranga-neon);
 }
 
 .section {
@@ -105,7 +104,7 @@
     width: 100%;
     text-align: justify;
     margin-bottom: 15px;
-    color: #cccccc9c;
+    color: var(--color-gris-texto);
 
 }
 
@@ -116,7 +115,7 @@
 .container .heading {
     text-align: start;
     padding-bottom: 15px;
-    color: #fff;
+    color: var(--color-blanco-texto);
     font-weight: 600;
 
     font-size: 20px;
@@ -142,11 +141,15 @@
 }
 
 .b1 {
-    background: #ff00f21d;
+    background: var(--color-b1);
+    box-shadow:  0px 0px 6px 2px var(--border-shadow-interior);
+
 }
 
 .b2 {
-    background: #74b9ff29;
+    background:var(--color-b2);
+    box-shadow:  0px 0px 6px 2px var(--border-shadow-interior);
+
 }
 
 .container .box_container .box .icon {
@@ -173,7 +176,7 @@
 }
 
 .container .box_container .box h4 {
-    color: #ddd;
+    color: var(--color-texto-blanco);
     font-size: 18px;
     padding-top: 10px;
     font-weight: 500;
@@ -181,7 +184,7 @@
 }
 
 .container .box_container .box p {
-    color: #777;
+    color: var(--color-gris-texto);
     font-size: 15px;
     text-align: start;
 }
@@ -192,7 +195,7 @@
 }
 
 .container .box_container .box:hover {
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
     transform: scale(1.02);
 }
 
@@ -218,7 +221,7 @@
 .wrapper .subtitle {
     text-align: start;
     padding-bottom: 15px;
-    color: #fff;
+    color: var(--color-blanco-texto);
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
     font-weight: 600;
 
