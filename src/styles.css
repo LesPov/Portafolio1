@@ -18,31 +18,52 @@ body {
     --backgraund-body: hsl(0, 100%, 0%);
     --backgraund-componets: hsl(204, 100%, 3%);
     --border-shadow-interior: hsl(185, 100%, 18%);
+    --border-shadow-interior-img: hsl(185, 100%, 18%);
     --backgraund-interior-img: hsl(0, 100%, 0%);
+
     --color-blanco-texto: hsl(76, 100%, 100%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --color-negro-texto: hsl(0, 100%, 0%);
+    --color-gris-texto: hsl(0, 0%, 80%);
+    --sombra-cards-personales: hsl(200, 60%, 11%);
 
+    --backgraund-hover-negro-cards-social: hsl(0, 100%, 0%);
+    --backgraund-hover-blanco-text-cards-social: hsl(0, 0%, 100%);
+    --sombra-cards-personales-hover: hsl(186.12, 95.79%, 24.38%);
 
+    --color-naranga-neon: hsl(25, 100%, 50%);
+    --sombra-boton-cv: hsl(24.71, 77.27%, 8.63%);
+
+    /* //////////////header//////////// */
+
+    --color-azul-neon:hsl(186, 100%, 50%);
+    --color-borde-azul:hsl(186, 100%, 50%);
 }
-
 
 
 
 /* //////////// Dark Tema ///////////////////// */
 body.dark-theme {
-    --backgraund-body: hsl(0, 0%, 99%);
-    --title-color: hsl(var(--hue-color), 8%, 95%);
-    --text-color: hsl(var(--hue-color), 8%, 75%);
-    --input-color: hsl(var(--hue-color), 29%, 16%);
-    --body-color: hsl(var(--hue-color), 28%, 12%);
-    --container-color: hsl(--hue-color), 29%, 16%;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 32%);
+    --backgraund-body: hsl(0, 100%, 0%);
+    --backgraund-componets: hsl(0, 0%, 86.67%);
+    --border-shadow-interior: hsl(0, 0%, 21%);
+    --border-shadow-interior-img: hsl(180, 1%, 59%);
+    --backgraund-interior-img: hsl(0, 0%, 0%);
+
+    --color-blanco-texto: hsl(0, 0%, 0%);
+    --color-negro-texto: hsl(0, 0%, 100%);
+    --color-gris-texto: hsl(0, 0%, 0%);
+    --sombra-cards-personales: hsl(0, 0%, 27%);
+
+    --backgraund-hover-negro-cards-social: hsl(0, 0%, 100%);
+    --backgraund-hover-blanco-text-cards-social: hsl(0, 0%, 0%);
+    --sombra-cards-personales-hover: hsl(200, 60%, 11%);
+
+    --color-naranga-neon: hsl(25, 100%, 50%);
+    --sombra-boton-cv: hsl(24.71, 77.27%, 8.63%);
+
+     /* //////////////header//////////// */
+
+     --color-azul-neon:hsl(186, 100%, 50%);
+     --color-borde-azul:hsl(0, 0%, 0%);
+
 }

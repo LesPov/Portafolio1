@@ -44,6 +44,8 @@
 
 .moon:hover {
     transform: scale(1.2);
+    background: #fff;
+    color: #000;
 
 }
 
@@ -58,7 +60,7 @@
 
 .change-theme:hover {
     cursor: pointer;
-    color: #ffffff;
+    color: #000;
 
 }
 

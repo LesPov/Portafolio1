@@ -22,7 +22,7 @@
 
 
 .imagen {
-    background: var(--backgraund--interior--img);
+    background: var(--backgraund-interior-img);
     margin: 5px;
     z-index: 2;
     width: 240px;
@@ -31,7 +31,7 @@
     max-height: 220px;
     overflow: hidden;
     position: relative;
-    box-shadow: inset 0px 0px 18px 0px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 18px 0px var(--border-shadow-interior-img);
 
 }
 
@@ -40,7 +40,7 @@
     height: 310px;
     border-radius: 15px;
     margin-left: -30px;
-    filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior));
+    filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior-img));
     transform: rotate(357deg);
     margin-bottom: 5px;
 
@@ -89,41 +89,40 @@ h1 {
     font-size: 25px;
     border-radius: 5px;
     transition: .3s;
-    border: 1px solid #000;
-    box-shadow: inset 0px 0px 14px 3px #0b212c;
+    box-shadow: inset 0px 0px 14px 3px var(--sombra-cards-personales);
 
 }
 
 .cardperson i:hover {
     transform: scale(1.1);
-    background: #00000029;
-    color: var(--color-blanco-texto);
-    box-shadow: inset 0px 0px 14px 0px #00e5ff94;
+    background: var(--backgraund-hover-negro-cards-social);
+    color: var(--backgraund-hover-blanco-text-cards-social);
+    box-shadow: inset 0px 0px 14px 0px var(--sombra-cards-personales-hover);
 
 }
 
 
 .cardperson .phone {
-    color: #000;
-    background: #fff;
+    color: var(--color-negro-texto);
+    background: var(--color-blanco-texto);
 }
 
 .cardperson .email {
 
-    color: #000;
-    background: #fff;
+    color: var(--color-negro-texto);
+    background: var(--color-blanco-texto);
 }
 
 .cardperson .map {
 
-    color: #000;
-    background: #fff;
+    color: var(--color-negro-texto);
+    background: var(--color-blanco-texto);
 }
 
 .cardperson .regalo {
 
-    color: #000;
-    background: #fff;
+    color: var(--color-negro-texto);
+    background: var(--color-blanco-texto);
 }
 
 .info_person {
@@ -133,14 +132,14 @@ h1 {
 
 .info_person h6 {
     font-size: 13px;
-    color: #ccc;
+    color: var(--color-gris-texto);
     font-weight: 600;
 }
 
 .info_person p {
     font-size: 13px;
     margin-top: 3px;
-    color: #ccc;
+    color: var(--color-gris-texto);
     font-weight: 600;
 
 }
@@ -148,25 +147,24 @@ h1 {
 .buttons {
     display: flex;
     justify-content: center;
-    background: #000;
+    background: var(--backgraund-interior-img);
     padding: 10px;
     border-radius: 5px;
     margin: 15px 0 15px 0;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: inset 0 0 5px 0.5px #00e5ff52;
+    box-shadow: inset 0 0 5px 0.5px var( --border-shadow-interior-img);
 
 }
 
 .buttons:hover {
     transform: scale(1.1);
-    box-shadow: inset 0px 0px 6px 2px #ff6b00;
-    background: #ff6a0029;
+    box-shadow: inset 0px 0px 6px 2px var(--color-naranga-neon);
+    background: var(--sombra-boton-cv);
 
 }
 
 .buttons .button_flex {
     color: #fff;
     text-decoration: none;
-
 }
