@@ -176,7 +176,7 @@
 }
 
 .container .box_container .box h4 {
-    color: var(--color-texto-blanco);
+    color: var(--color-texto-title);
     font-size: 18px;
     padding-top: 10px;
     font-weight: 500;
@@ -184,7 +184,7 @@
 }
 
 .container .box_container .box p {
-    color: var(--color-gris-texto);
+    color: var(--color-texto-blanco);
     font-size: 15px;
     text-align: start;
 }
@@ -323,27 +323,27 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    box-shadow: 0px 0px 5px #5fcdd980;
+    box-shadow: 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/montañismo.jpeg');
 
 }
 
 .card[for="c2"] {
-    box-shadow: 0px 0px 5px #5fcdd980;
+    box-shadow: 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/space1.jpeg');
 
 
 }
 
 .card[for="c3"] {
-    box-shadow: 0px 0px 5px #5fcdd980;
+    box-shadow: 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/musica.jpeg');
 
 
 }
 
 .card[for="c4"] {
-    box-shadow: 0px 0px 5px #5fcdd980;
+    box-shadow: 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/tecnologia.jpeg');
 
 }
