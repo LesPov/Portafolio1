@@ -43,8 +43,19 @@
     filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior-img));
     transform: rotate(357deg);
     margin-bottom: 5px;
+    transition: .9s;
+
 
 }
+
+.imagen img:hover {
+    transform: scale(0.5) translateY(-100px) translateX(35px);
+    transition: .9s;
+    box-shadow: inset 0px 0px 18px 0px var( --color-naranga-neon);
+    filter: drop-shadow(-1px -1px 10px var( --color-naranga-neon));
+
+}
+
 
 h1 {
 
@@ -153,7 +164,7 @@ h1 {
     margin: 15px 0 15px 0;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: inset 0 0 5px 0.5px var( --border-shadow-interior-img);
+    box-shadow: inset 0 0 5px 0.5px var(--border-shadow-interior-img);
 
 }
 
