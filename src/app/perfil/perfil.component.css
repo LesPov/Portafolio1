@@ -38,7 +38,7 @@
 
 .imagen img {
     width: 270px;
-    height: 310px;
+    height: 300px;
     border-radius: 15px;
     margin-left: -30px;
     filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior-img));
@@ -50,10 +50,10 @@
 }
 
 .imagen img:hover {
-    transform: scale(0.5) translateY(-100px) translateX(35px);
+    transform: scale(0.5) translateY(-80px) translateX(35px);
     transition: .9s;
-    box-shadow: inset 0px 0px 18px 0px var( --color-naranga-neon);
-    filter: drop-shadow(-1px -1px 10px var( --color-naranga-neon));
+    box-shadow: inset 0px 0px 18px 0px var( --border-shadow-interior-img);
+    filter: drop-shadow(-1px -1px 10px var( --border-shadow-interior-img));
 
 }
 

@@ -1,17 +1,17 @@
 export const navbarData = [
     {
         routerLink: 'about',
-        icon: 'ri-user-3-fill',
+        icon: 'bx bx-user',
         label: 'Sobre Mi'
     },
     {
         routerLink: 'resume',
-        icon: 'ri-book-read-fill',
+        icon: 'bx bx-news',
         label: 'Resumen'
     },
     {
         routerLink: 'proyect',
-        icon: 'ri-archive-fill',
+        icon: 'bx bx-box',
         label: 'Proyectos'
     },
     {

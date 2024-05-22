@@ -68,12 +68,15 @@
     color: #ccc;
 
 }
+.bxs-star {
+    color: #daaa3f;
 
+}
 .nav_btns_stars {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #ccc;
 }
 
 .nav_btns_stars span {
