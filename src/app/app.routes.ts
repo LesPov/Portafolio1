@@ -7,12 +7,13 @@ import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'about', pathMatch: 'full' },
     { path: 'about', component: AboutComponent },
     { path: 'resume', component: ResumeComponent },
     { path: 'proyect', component: ProyectComponent },
     { path: 'blog', component: BlogComponent },
     { path: 'contact', component: ContactComponent },
+    { path: '', redirectTo: '/about', pathMatch: 'full' },
+    { path: '**', redirectTo: '/about' } // Maneja rutas no encontradas
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

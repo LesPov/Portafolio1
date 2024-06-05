@@ -40,9 +40,10 @@
 .resumen .text-animate2 h2::before {
     content: "";
     position: absolute;
+    top: 10px;
     left: 1px;
-    height: 100%;
-    border-right: 3px solid #fff;
+    height: 26px;
+    border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
@@ -85,8 +86,10 @@
 .line {
     width: 30%;
     height: 3px;
+    border-radius: 10%;
     margin-left: 20px;
-    background-color: #fff;
+    background-color: var(--color-naranga-neon);
+    box-shadow:  0px 0px 5px 1px var(--color-naranga-neon);
 }
 
 
@@ -236,10 +239,11 @@
 .habilidades .text-animate2 h2::before {
     content: "";
     position: absolute;
+    top: 10px;
     left: 1px;
-    height: 100%;
-    border-right: 3px solid #fff;
-    animation: moveCursorText 5s linear infinite;
+    height: 26px;
+    border-right: 3px solid var(--color-blanco-texto);
+    animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
 
