@@ -142,13 +142,11 @@
 
 .b1 {
     background: var(--color-b1);
-    box-shadow:  0px 0px 6px 2px var(--border-shadow-interior);
 
 }
 
 .b2 {
     background:var(--color-b2);
-    box-shadow:  0px 0px 6px 2px var(--border-shadow-interior);
 
 }
 
