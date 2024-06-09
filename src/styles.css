@@ -35,15 +35,15 @@ body {
 
     /* //////////////header//////////// */
 
-    --color-azul-neon:hsl(186, 100%, 50%);
-    --color-borde-azul:hsl(186, 100%, 50%);
+    --color-azul-neon: hsl(186, 100%, 50%);
+    --color-borde-azul: hsl(186, 100%, 50%);
 
 
     /* ///////////////////////about/////////////// */
-    --color-texto-title:hsl(0, 0%, 100%);
-    --color-texto-blanco:hsl(0, 0%, 67%);
-    --color-b1:hsla(303, 100%, 50%, 0.114);
-    --color-b2:hsla(210, 100%, 73%, 0.161);
+    --color-texto-title: hsl(0, 0%, 100%);
+    --color-texto-blanco: hsl(0, 0%, 67%);
+    --color-b1: linear-gradient(315deg, #3f0028, #3f00281a, transparent);
+    --color-b2: linear-gradient(315deg, #283b00, #283b0003, transparent);
 
 }
 
@@ -69,15 +69,15 @@ body.dark-theme {
     --color-naranga-neon: hsl(25, 100%, 50%);
     --sombra-boton-cv: hsl(24.71, 77.27%, 8.63%);
 
-     /* //////////////header//////////// */
+    /* //////////////header//////////// */
 
-     --color-azul-neon:hsl(186, 100%, 50%);
-     --color-borde-azul:hsl(0, 0%, 0%);
+    --color-azul-neon: hsl(186, 100%, 50%);
+    --color-borde-azul: hsl(0, 0%, 0%);
 
     /* ///////////////////////about/////////////// */
-    --color-texto-title:hsl(0, 0%, 100%);
---color-texto-blanco:hsl(0, 0%, 67%);
-    --color-b1:hsl(0, 0%, 0%);
-    --color-b2:hsl(0, 0%, 0%);
+    --color-texto-title: hsl(0, 0%, 100%);
+    --color-texto-blanco: hsl(0, 0%, 67%);
+    --color-b1: hsl(0, 0%, 0%);
+    --color-b2: hsl(0, 0%, 0%);
 
 }

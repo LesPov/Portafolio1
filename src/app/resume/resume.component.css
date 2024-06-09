@@ -10,11 +10,6 @@
 }
 
 
-.title1 {
-    display: flex;
-    align-items: center;
-
-}
 
 .resumen .text-animate2 {
     width: 11rem;
@@ -134,7 +129,6 @@
     font-size: 22px;
     margin-right: 10px;
     margin-left: 8px;
-    color: #00b6ff;
 }
 
 .container .box_container {
@@ -151,13 +145,18 @@
 }
 
 .b1 {
-    background: #ff00f21d;
+    background: var(--color-b1);
+}
+.c1{
+ color: #ff00a2;
 }
 
 .b2 {
-    background: #74b9ff29;
+    background: var(--color-b2);
 }
-
+.c2{
+    color: #aeff00;
+}
 .container .box_container .box .text .experiencia__calendar {
     justify-content: center;
     display: flex;

@@ -85,7 +85,7 @@
     border-radius: 10%;
     margin-left: 20px;
     background-color: var(--color-naranga-neon);
-    box-shadow:  0px 0px 5px 1px var(--color-naranga-neon);
+    box-shadow: 0px 0px 5px 1px var(--color-naranga-neon);
 }
 
 .section {
@@ -146,7 +146,7 @@
 }
 
 .b2 {
-    background:var(--color-b2);
+    background: var(--color-b2);
 
 }
 
@@ -158,15 +158,15 @@
 }
 
 .icon .fa-swatchbook {
-    color: #ff07f3;
+    color: #ff00a2;
 }
 
-.icon .fa-laptop-code {
+/* .icon .fa-laptop-code {
     color: #dbe700;
-}
+} */
 
 .icon .fa-code {
-    color: #e70049;
+    color: #aeff00;
 }
 
 .container .box_container .box img {
@@ -193,7 +193,6 @@
 }
 
 .container .box_container .box:hover {
-    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
     transform: scale(1.02);
 }
 
