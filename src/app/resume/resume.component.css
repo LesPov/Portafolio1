@@ -84,7 +84,7 @@
     border-radius: 10%;
     margin-left: 20px;
     background-color: var(--color-naranga-neon);
-    box-shadow:  0px 0px 5px 1px var(--color-naranga-neon);
+    box-shadow: 0px 0px 5px 1px var(--color-naranga-neon);
 }
 
 
@@ -113,6 +113,7 @@
     gap: 20px;
     margin-bottom: 15px;
 }
+
 
 .container .heading {
     text-align: start;
@@ -147,16 +148,19 @@
 .b1 {
     background: var(--color-b1);
 }
-.c1{
- color: #ff00a2;
+
+.c1 {
+    color: #ff00a2;
 }
 
 .b2 {
     background: var(--color-b2);
 }
-.c2{
+
+.c2 {
     color: #aeff00;
 }
+
 .container .box_container .box .text .experiencia__calendar {
     justify-content: center;
     display: flex;
@@ -283,59 +287,89 @@
 
 
 
-.box_contain{
+.box_contain {
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 50px;
+
+}
+
+
+.ticket {
+    border: 2px solid #dd002c;
+    box-shadow: 0 0 10px 3px #dd002c;
+    width: 200px;
+    aspect-ratio: 18/9;
+    border-radius: 20px;
+    position: relative;
+    transition: transform .14s ease-in-out;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ticket:hover {
+    transition: none;
+}
+.imagen{
+    height: 100px;
+    width: 100px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 1001;
+}
+.container .wrapper.layout {
 
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
+    grid-auto-flow: row dense;
 }
 
-
-.ticket{
-    border: 2px solid #ff0000;
-    box-shadow: 0 0 40px 5px rgba(255, 0, 0, 0.3);
-    width: 300px;
-aspect-ratio: 18/9;    border-radius: 20px;
-    position: relative;
-    transition: transform .8s ease-in-out;
-    background: #ff0000;
-    display: flex;
-    justify-content: center;
+.bg {
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    filter: blur(20px);
+    width: 100%;
+    height: 100%;
 }
 
-
-.ticket:hover{
-  transition: none;
+.bg1 {
+    box-shadow: 0 0 20px 5px #dd002c;
+    width: 160px;
+    border-radius: 15px;
+    height: 60px;
+    border: 2px solid #dd002c;
+    position: absolute;
 }
 
-.container .wrapper.layout {
- 
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  grid-auto-flow: row dense;
-}
-.bg{
-  top: 0;
-background: rgba(0, 0, 0, .3);
-position: absolute;
-filter: blur(20px);
-width: 100%;
-height: 100%;
+.bg2 {
+    box-shadow: 0 0 20px 5px #dd002c;
+    width: 120px;
+    border-radius: 8px;
+    height: 20px;
+    border: 2px solid #dd002c;
+    position: absolute;
 }
 
-
-h1{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #fff;
-  padding: 20px;
-  font-size: 36px;
-  font-weight: 900;
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    z-index: 10;
 }
 
-.wrapper{
+.wrapper {
     perspective: 1000px;
     grid-auto-flow: row;
 }
