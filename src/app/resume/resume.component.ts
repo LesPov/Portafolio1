@@ -25,7 +25,7 @@ export class ResumeComponent implements AfterViewInit {
         const handleMouseMove = (event: MouseEvent) => {
           const { offsetX, offsetY } = event;
           const rotationX = ((offsetX - halfWidth) / halfWidth) * 30;
-          const rotationY = ((offsetY - halfHeight) / halfHeight) * 20;
+          const rotationY = ((offsetY - halfHeight) / halfHeight) * 30;
           ticket.style.transform = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`;
           ticket.style.transition = 'transform 0.3s';
         };
