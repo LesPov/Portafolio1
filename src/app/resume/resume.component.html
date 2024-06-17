@@ -1,3 +1,4 @@
+<!-- resume.component.html -->
 <div class="resumen">
     <div class="title">
         <div class="text-animate2">
@@ -93,22 +94,15 @@
             </div>
             <div class="container a2">
                 <div class="box_contain">
-                    <div #wrapper class="wrapper">
-                        <div #ticket class="ticket d1">
-                            <img class="imagen" src="../../assets/img/angular.png" alt="">
-                            <div class="bg1">
-                              
-
-                            </div>
-                            <div class="bg2">
-                                    
-                            </div>
-                            <h1>Angular</h1>
-
+                    <div *ngFor="let ticket of tickets; let i = index" class="wrapper" #wrapper>
+                        <div #ticket class="ticket d1" [ngStyle]="getStyle(i)">
+                          <img class="imagen" [src]="ticket.img" alt="">
+                          <div class="bg1" [ngStyle]="getBg1Style(i)" [ngStyle]="getPseudoElementStyle(i)"></div>
+                          <div class="bg2" [ngStyle]="getBg2Style(i)" [ngStyle]="getPseudoElementStyle(i)"></div>
+                          <h1>{{ ticket.title }}</h1>
                           <div class="bg"></div>
                         </div>
                       </div>
-                    
                 </div>
             </div>
         </div>

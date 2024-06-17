@@ -292,7 +292,8 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    column-gap: 35px;
+    row-gap: 88px;
     margin-top: 50px;
 
 }
@@ -353,6 +354,7 @@
     box-shadow: 0 0 20px 5px #dd002c;
 
 }
+
 .bg1::after{
     content: "";
     position: absolute;
