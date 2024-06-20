@@ -321,7 +321,7 @@
 .imagen{
     height: 100px;
     width: 100px;
-    bottom: 50px;
+    bottom: 55px;
     position: absolute;
     z-index: 1001;
 }
@@ -566,6 +566,44 @@ h1 {
     box-shadow: 0 0 15px 0px #E34C25;
 }
 
+   
+
+
+
+.ticket.d6 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d6 .bg1::before {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d6 .bg1::after {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d6 .bg1 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 20px 0px #656AFE;
+}
+
+.ticket.d6 .bg2::before {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d6 .bg2::after {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d6 .bg2 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 15px 0px #656AFE;
+}
 
 .footer {
     width: 100%;
