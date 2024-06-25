@@ -71,7 +71,7 @@ body.dark-theme {
 
     /* //////////////header//////////// */
 
-    --color-azul-neon: hsl(186, 100%, 50%);
+    --color-azul-neon: #00e5ff;
     --color-borde-azul: hsl(0, 0%, 0%);
 
     /* ///////////////////////about/////////////// */
