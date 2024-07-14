@@ -1,4 +1,16 @@
 <div class="body">
+    <div class="sidenav" >
+   
+        <ul class="sidenav_nav">
+            <li class="sidenav_nav_item" *ngFor="let data of navData">
+                <a href="#" class="sidenav_nav_link" [routerLink]="[data.routerLink]" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+    
+                    <span class="sidenav_link_text">{{data.label}}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
     <router-outlet></router-outlet>
     
 </div>

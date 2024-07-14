@@ -17,7 +17,6 @@ interface SidenNavToggle {
   styleUrl: './sidenav.component.css'
 })
 export class SidenavComponent  {
-  @Output() onToggleSideNav: EventEmitter<SidenNavToggle> = new EventEmitter();
   
   navData = navbarData;
 

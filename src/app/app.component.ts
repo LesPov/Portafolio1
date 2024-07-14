@@ -6,17 +6,13 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { HeaderComponent } from './header/header.component';
 import { PointsatarComponent } from './pointsatar/pointsatar.component';
 
-interface SideNavToggle {
-  screenWidth: number;
-  collapsed: boolean;
-}
+
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
     BodyComponent,
-    SidenavComponent,
     PerfilComponent,
     HeaderComponent,
     PointsatarComponent
