@@ -17,6 +17,7 @@
     flex-direction: column;
     align-items: center;
     box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
+    
 
 }
 
@@ -52,8 +53,8 @@
 .imagen img:hover {
     transform: scale(0.5) translateY(-80px) translateX(35px);
     transition: .9s;
-    box-shadow: inset 0px 0px 18px 0px var( --border-shadow-interior-img);
-    filter: drop-shadow(-1px -1px 10px var( --border-shadow-interior-img));
+    box-shadow: inset 0px 0px 18px 0px var(--border-shadow-interior-img);
+    filter: drop-shadow(-1px -1px 10px var(--border-shadow-interior-img));
 
 }
 
@@ -84,8 +85,8 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 13px;
-    gap: 10px;
+    margin-top: 20px;
+    gap: 16px;
 }
 
 .cardperson {

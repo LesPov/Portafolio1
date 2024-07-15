@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BodyComponent } from './body/body.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { HeaderComponent } from './header/header.component';
-import { PointsatarComponent } from './pointsatar/pointsatar.component';
 
 
 @Component({
@@ -14,9 +12,7 @@ import { PointsatarComponent } from './pointsatar/pointsatar.component';
     RouterOutlet,
     BodyComponent,
     PerfilComponent,
-    HeaderComponent,
-    PointsatarComponent
-    
+    HeaderComponent    
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

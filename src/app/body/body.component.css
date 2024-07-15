@@ -62,7 +62,7 @@
 
 }
 .active {
-    transition: all 2.5s ease;
+    transition: all 3s ease;
     box-shadow: none !important;
 }
 

@@ -6,7 +6,7 @@
 .title {
     display: flex;
     align-items: center;
-    padding: 2rem 3rem 0rem 3rem;
+    padding: 0rem 0rem 0rem 1rem;
 
 }
 
@@ -93,14 +93,14 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    padding: 0rem 3rem 0rem 3rem;
-
+    padding: 2rem 3rem 0rem 3rem;
 }
 
 .section p {
-    margin-top: 10px;
+   margin-top: 10px;
     line-height: 22px;
     font-size: 15px;
+    padding: 0px 50px;
     width: 100%;
     text-align: justify;
     margin-bottom: 15px;
@@ -234,7 +234,7 @@
     height: 300px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
 }
 
 .card {
