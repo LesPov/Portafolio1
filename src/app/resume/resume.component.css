@@ -657,7 +657,7 @@ h1 {
     animation: moveCursorText2 5s linear infinite;
     animation-delay: 1s;
 }
-
+ 
 @keyframes moveText2 {
 
     0%,
