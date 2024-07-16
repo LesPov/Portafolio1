@@ -112,6 +112,7 @@
     display: flex;
     gap: 20px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 
@@ -301,7 +302,7 @@
 
 .ticket {
     border: 2px solid #dd002c;
-    box-shadow:0 0 20px 5px #dd002cb4;
+    box-shadow: 0 0 20px 5px #dd002cb4;
     width: 200px;
     aspect-ratio: 18/9;
     border-radius: 20px;
@@ -318,7 +319,8 @@
 .ticket:hover {
     transition: none;
 }
-.imagen{
+
+.imagen {
     height: 100px;
     width: 100px;
     bottom: 55px;
@@ -326,6 +328,7 @@
     z-index: 1001;
     cursor: pointer;
 }
+
 .container .wrapper.layout {
 
     display: grid;
@@ -334,6 +337,7 @@
     gap: 8px;
     grid-auto-flow: row dense;
 }
+
 .bg {
     top: 0;
     position: absolute;
@@ -345,11 +349,13 @@
 
 
 }
+
 .bg:hover {
     background: none;
 
 }
-.bg1::before{
+
+.bg1::before {
     content: "";
     position: absolute;
     top: -1px;
@@ -361,7 +367,7 @@
 
 }
 
-.bg1::after{
+.bg1::after {
     content: "";
     position: absolute;
     top: 30px;
@@ -371,6 +377,7 @@
     border: 1px solid #dd002c;
     box-shadow: 0 0 20px 5px #dd002c;
 }
+
 .bg1 {
     box-shadow: 0 0 20px 0px #dd002c;
     width: 160px;
@@ -379,7 +386,8 @@
     border: 2px solid #dd002c;
     position: absolute;
 }
-.bg2::before{
+
+.bg2::before {
     content: "";
     position: absolute;
     top: 11px;
@@ -390,7 +398,8 @@
     box-shadow: 0 0 20px 5px #dd002c;
 
 }
-.bg2::after{
+
+.bg2::after {
     content: "";
     position: absolute;
     top: -22px;
@@ -401,6 +410,7 @@
     box-shadow: 0 0 20px 5px #dd002c;
 
 }
+
 .bg2 {
     box-shadow: 0 0 15px 0px #dd002c;
     width: 120px;
@@ -422,6 +432,7 @@ h1 {
     perspective: 1000px;
     grid-auto-flow: row;
 }
+
 .ticket.d2 {
     border: 2px solid #2C5A81;
     box-shadow: 0 0 20px 5px #2C5A81b4;
@@ -567,7 +578,7 @@ h1 {
     box-shadow: 0 0 15px 0px #E34C25;
 }
 
-   
+
 
 
 
@@ -604,6 +615,82 @@ h1 {
 .ticket.d6 .bg2 {
     border: 2px solid #656AFE;
     box-shadow: 0 0 15px 0px #656AFE;
+}
+
+/* ////////////////////////////////////////////////////// */
+.referencias {
+    margin: 0;
+}
+
+
+
+
+
+.referencias .text-animate2 {
+    width: 14rem;
+    position: relative;
+}
+
+.referencias .text-animate2 h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 0.01vw #000;
+    background: linear-gradient(to top, #fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    transition: .6s;
+    letter-spacing: 2px;
+    animation: moveText2 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.referencias .text-animate2 h2::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 26px;
+    border-right: 3px solid var(--color-blanco-texto);
+    animation: moveCursorText2 5s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes moveText2 {
+
+    0%,
+    10%,
+    100% {
+        background-position: -14rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0rem 0;
+    }
+}
+
+@keyframes moveCursorText2 {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    85% {
+        opacity: 0;
+    }
 }
 
 .footer {
