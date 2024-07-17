@@ -97,7 +97,7 @@
 }
 
 .section p {
-   margin-top: 10px;
+    margin-top: 10px;
     line-height: 22px;
     font-size: 15px;
     padding: 0px 50px;
@@ -318,27 +318,27 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    box-shadow: 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/montañismo.jpeg');
 
 }
 
 .card[for="c2"] {
-    box-shadow: 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/space1.jpeg');
 
 
 }
 
 .card[for="c3"] {
-    box-shadow: 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/musica.jpeg');
 
 
 }
 
 .card[for="c4"] {
-    box-shadow: 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset  0px 0px 5px var(--border-shadow-interior);
     background-image: url('../../assets//img/tecnologia.jpeg');
 
 }
