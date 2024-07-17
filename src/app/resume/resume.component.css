@@ -109,8 +109,9 @@
 .container {
     padding: 10px;
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
     gap: 20px;
-    margin-bottom: 15px;
     justify-content: center;
 }
 
@@ -295,6 +296,7 @@
     column-gap: 45px;
     row-gap: 90px;
     margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -616,6 +618,44 @@ h1 {
     box-shadow: 0 0 15px 0px #656AFE;
 }
 
+
+
+
+.ticket.d7 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d7 .bg1::before {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d7 .bg1::after {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d7 .bg1 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 20px 0px #656AFE;
+}
+
+.ticket.d7 .bg2::before {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d7 .bg2::after {
+    border-color: #656AFE;
+    box-shadow: 0 0 20px 5px #656AFE;
+}
+
+.ticket.d7 .bg2 {
+    border: 2px solid #656AFE;
+    box-shadow: 0 0 15px 0px #656AFE;
+}
+
 /* ////////////////////////////////////////////////////// */
 .referencias {
     margin: 0;
@@ -656,7 +696,7 @@ h1 {
     animation: moveCursorText2 5s linear infinite;
     animation-delay: 1s;
 }
- 
+
 @keyframes moveText2 {
 
     0%,
