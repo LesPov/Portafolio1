@@ -13,6 +13,7 @@
     box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
 
 }
+
 .sidenav {
     background: var(--backgraund-componets);
     transition: all .5s ease;
@@ -24,6 +25,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .sidenav_nav {
     list-style: none;
     display: flex;
@@ -33,10 +35,12 @@
     cursor: pointer;
 
 }
+
 .sidenav .sidenav_nav .sidenav_nav_item {
     position: relative;
-   
+
 }
+
 .sidenav_nav .sidenav_nav_link {
     display: flex;
     width: 100%;
@@ -55,12 +59,13 @@
     font-size: 14px;
     font-weight: 500;
 
-} 
+}
 
 .sidenav_nav .sidenav_nav_item .sidenav_nav_link:hover {
     box-shadow: inset 0px 0px 5px 2px var(--color-naranga-neon);
 
 }
+
 .active {
     transition: all 3s ease;
     box-shadow: none !important;
@@ -73,4 +78,3 @@
     font-weight: 800;
 
 }
-
