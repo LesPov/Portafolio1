@@ -623,40 +623,78 @@ h1 {
 
 
 
-
 .ticket.d7 {
-    border: 2px solid #656AFE;
-    box-shadow: 0 0 20px 5px #656AFE;
+    border: 2px solid #FF7C3A;
+    box-shadow: 0 0 20px 5px #FF7C3A;
 }
 
 .ticket.d7 .bg1::before {
-    border-color: #656AFE;
-    box-shadow: 0 0 20px 5px #656AFE;
+    border-color: #FF7C3A;
+    box-shadow: 0 0 20px 5px #FF7C3A;
 }
 
 .ticket.d7 .bg1::after {
-    border-color: #656AFE;
-    box-shadow: 0 0 20px 5px #656AFE;
+    border-color: #FF7C3A;
+    box-shadow: 0 0 20px 5px #FF7C3A;
 }
 
 .ticket.d7 .bg1 {
-    border: 2px solid #656AFE;
-    box-shadow: 0 0 20px 0px #656AFE;
+    border: 2px solid #FF7C3A;
+    box-shadow: 0 0 20px 0px #FF7C3A;
 }
 
 .ticket.d7 .bg2::before {
-    border-color: #656AFE;
-    box-shadow: 0 0 20px 5px #656AFE;
+    border-color: #FF7C3A;
+    box-shadow: 0 0 20px 5px #FF7C3A;
 }
 
 .ticket.d7 .bg2::after {
-    border-color: #656AFE;
-    box-shadow: 0 0 20px 5px #656AFE;
+    border-color: #FF7C3A;
+    box-shadow: 0 0 20px 5px #FF7C3A;
 }
 
 .ticket.d7 .bg2 {
-    border: 2px solid #656AFE;
-    box-shadow: 0 0 15px 0px #656AFE;
+    border: 2px solid #FF7C3A;
+    box-shadow: 0 0 15px 0px #FF7C3A;
+}
+
+
+
+
+
+.ticket.d8 {
+    border: 2px solid #3493D0;
+    box-shadow: 0 0 20px 5px #3493D0;
+}
+
+.ticket.d8 .bg1::before {
+    border-color: #3493D0;
+    box-shadow: 0 0 20px 5px #3493D0;
+}
+
+.ticket.d8 .bg1::after {
+    border-color: #3493D0;
+    box-shadow: 0 0 20px 5px #3493D0;
+}
+
+.ticket.d8 .bg1 {
+    border: 2px solid #3493D0;
+    box-shadow: 0 0 20px 0px #3493D0;
+}
+
+.ticket.d8 .bg2::before {
+    border-color: #3493D0;
+    box-shadow: 0 0 20px 5px #3493D0;
+}
+
+.ticket.d8 .bg2::after {
+    border-color: #3493D0;
+    box-shadow: 0 0 20px 5px #3493D0;
+}
+
+.ticket.d8 .bg2 {
+    border: 2px solid #3493D0;
+    box-shadow: 0 0 15px 0px #3493D0;
 }
 
 /* ////////////////////////////////////////////////////// */
@@ -873,15 +911,17 @@ img {
 }
 
 .card1_social.a2 {
-   
+
     box-shadow: 0 0 20px 0px #ff0055;
 
 }
+
 .card1_social.a3 {
-   
+
     box-shadow: 0 0 20px 0px #1e00ff;
 
 }
+
 .card1_social-control {
     position: relative;
     transform-origin: 16px 16px;
@@ -905,18 +945,22 @@ img {
     position: relative;
     z-index: 10;
 }
+
 .card1_social-toggle.b1 {
     background-color: #0f0;
-   
+
 }
+
 .card1_social-toggle.b2 {
     background-color: #ff0055;
-   
+
 }
-.card1_social-toggle.b3{
+
+.card1_social-toggle.b3 {
     background-color: #1e00ff;
-   
+
 }
+
 .card1_social-text {
     display: block;
     color: #fff;

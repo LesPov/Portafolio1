@@ -8,10 +8,10 @@ import { fromEvent } from 'rxjs';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements AfterViewInit {
-  @ViewChildren('wrapper1, wrapper2, wrapper3, wrapper4, wrapper5, wrapper6,wrapper7') wrapperRefs!: QueryList<ElementRef<HTMLDivElement>>;
-  @ViewChildren('ticket1, ticket2, ticket3, ticket4, ticket5, ticket6,ticket7') ticketRefs!: QueryList<ElementRef<HTMLDivElement>>;
+  @ViewChildren('wrapper1, wrapper2, wrapper3, wrapper4, wrapper5, wrapper6,wrapper7,wrapper8') wrapperRefs!: QueryList<ElementRef<HTMLDivElement>>;
+  @ViewChildren('ticket1, ticket2, ticket3, ticket4, ticket5, ticket6,ticket7,ticket8') ticketRefs!: QueryList<ElementRef<HTMLDivElement>>;
   @ViewChildren('card1') cardRefs!: QueryList<ElementRef<HTMLDivElement>>;
-  
+
   constructor(private renderer: Renderer2) {}
 
   ngAfterViewInit() {
