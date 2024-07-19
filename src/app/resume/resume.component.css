@@ -734,16 +734,6 @@ h1 {
 }
 
 
-:root {
-    --first-color: hsl(29, 80%, 58%);
-    --first-color-light: hsl(29, 80%, 70%);
-    --black-color: hsl(29, 16%, 10%);
-    --text-color: hsl(29, 8%, 65%);
-    --body-color: hsl(29, 100%, 99%);
-    --body-font: "Poppins", sans-serif;
-    --h3-font-size: 1.125rem;
-    --smaller-font-size: .75rem;
-}
 
 a {
     text-decoration: none;
@@ -756,6 +746,7 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+    z-index: 1001;
 }
 
 .container3 {
@@ -767,17 +758,23 @@ img {
     margin-bottom: 50px;
 }
 
-.card1 {
+.cards1 {
     position: relative;
     display: flex;
-    width: 300px;
+    width: 280px;
     height: 170px;
-    background: rgba(45, 45, 45, 1);
     border-radius: 1.5rem;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.card1 {
+    position: absolute;
+    width: 280px;
+    height: 170px;
+    border-radius: 1.5rem;
     overflow: hidden;
 }
 
@@ -788,27 +785,227 @@ img {
     left: var(--x);
     transform: translate(-50%, -50%);
     background: radial-gradient(var(--clr), transparent, transparent);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     opacity: 0;
-    transition: opacity 0.5s, top 3s, left 3s; /* Ajusta la transición de top y left a 3s */
+    transition: opacity 0.5s, top 3s, left 3s;
 }
 
 .card1:hover::before {
     opacity: 1;
-    transition: opacity 0.1s;
+    transition: opacity 0.5s;
 }
 
 .card1::after {
     content: '';
     position: absolute;
-    inset: 2px;
+    inset: 3px;
     border-radius: 20px;
-    background: rgba(45, 45, 45, 0.75);
-    transition: 1s ease;
+    background: rgb(45 45 45 / 41%);
+    transition: 2s ease;
 }
 
-  
+.card1_img {
+    transform: translateY(-3px);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card1_border {
+    position: absolute;
+    top: -70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 0.75rem;
+}
+
+
+
+.card1_name,
+.card1_profession {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    user-select: none;
+    /* Desactiva la selección de texto */
+    pointer-events: none;
+    /* Permite que los eventos del mouse pasen a través del texto */
+}
+
+.card1_name {
+    top: 85px;
+}
+
+.card1_profession {
+    top: 112px;
+}
+
+.card1_social {
+    width: 220px;
+    background: hsl(204, 100%, 3%);
+    box-shadow: 0 0 20px 0px #0f0;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    text-align: initial;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1.75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    transform-origin: 18px 17px;
+}
+
+.card1_social-control {
+    position: relative;
+    transform-origin: 16px 16px;
+    transition: transform 0.45s ease;
+    display: flex;
+    transform: rotate(0);
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.card1_social-toggle {
+    display: inline-flex;
+    background-color: #0f0;
+    padding: 0.2rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    left: -8px;
+    position: relative;
+    z-index: 10;
+}
+
+.card1_social-text {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card1_social-list {
+    display: none;
+    column-gap: 1.5rem;
+    font-size: 30px;
+    transform: rotate(135deg);
+    transform-origin: -35px 17px;
+}
+
+/* Mostrar los iconos cuando la clase 'animation' esté presente */
+.card1_social.animation .card1_social-list {
+    display: inline-flex;
+}
+
+/* Ocultar el texto cuando la clase 'animation' esté presente */
+.card1_social.animation .card1_social-text {
+    display: none;
+}
+
+
+
+.card1social-text,
+.card1social-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 3.1rem;
+}
+
+.card1_social-text {
+    top: 0.5rem;
+}
+
+/* Rotate social */
+.animation .card1_social-control {
+    transform: rotate(-135deg);
+}
+
+/* Up animation */
+.card1_social.animation {
+    animation: up-animation 1s ease-in-out forwards;
+}
+
+/* Especificar colores de fondo para los iconos */
+.card1_social-link i.ri-facebook-line {
+    background-color: #3b5998;
+    /* Color de fondo para Facebook */
+    color: #fff;
+    /* Color del icono en blanco */
+}
+
+.card1_social-link i.ri-instagram-line {
+    background-color: #e4405f;
+    /* Color de fondo para Instagram */
+    color: #fff;
+    /* Color del icono en blanco */
+}
+
+.card1_social-link i.ri-twitter-line {
+    background-color: #1da1f2;
+    /* Color de fondo para Twitter */
+    color: #fff;
+    /* Color del icono en blanco */
+}
+
+/* Ajustes generales para todos los iconos */
+.card1_social-link i {
+    color: #fff;
+    /* Color blanco para los iconos */
+    font-size: 1.25rem;
+    /* Tamaño de los iconos */
+    padding: 6px;
+    border-radius: 50%;
+}
+
+@keyframes up-animation {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    50%,
+    60% {
+        transform: rotate(-3deg);
+    }
+
+    88% {
+        transform: rotate(1deg);
+    }
+}
+
+/* Down animation */
+.card1_social.down-animation {
+    animation: down-animation 1s ease-in-out forwards;
+}
+
+@keyframes down-animation {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    50%,
+    60% {
+        transform: rotate(6deg);
+    }
+
+    88% {
+        transform: rotate(-1deg);
+    }
+}
 
 .footer {
     width: 100%;
@@ -823,6 +1020,7 @@ img {
     border-bottom-right-radius: 15px;
 
 }
+
 
 .footer p {
     text-align: center;
