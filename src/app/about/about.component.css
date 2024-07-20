@@ -36,9 +36,9 @@
 .sobre_mi .text-animate2 h2::before {
     content: "";
     position: absolute;
-    top: 8px;
+    top: 6px;
     left: 1px;
-    height: 28px;
+    height: 24px;
     border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
@@ -100,7 +100,7 @@
     margin-top: 10px;
     line-height: 22px;
     font-size: 15px;
-    padding: 0px 50px;
+    padding: 0px 25px;
     width: 100%;
     text-align: justify;
     margin-bottom: 15px;

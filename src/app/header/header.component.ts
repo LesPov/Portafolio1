@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [
+  ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -11,8 +13,9 @@ export class HeaderComponent implements OnInit {
   private darkTheme = 'dark-theme';
   private iconTheme = 'uil-sun';
 
-  constructor() { }
+  constructor(private toastr: ToastrService) {
 
+  }
   ngOnInit(): void {
     const selectedTheme = this.isWindowAvailable() ? localStorage.getItem('selected-theme') : null;
     const selectedIcon = this.isWindowAvailable() ? localStorage.getItem('selected-icon') : null;
@@ -36,6 +39,10 @@ export class HeaderComponent implements OnInit {
     localStorage.setItem('selected-icon', currentIcon === 'uil-moon' ? 'uil-sun' : 'uil-moon');
   }
 
+
+  showsuccess(): void {
+    this.toastr.warning('En proximas actualizaciones se agregara.', 'Warning');
+  }
   private getCurrentTheme(): string {
     return document.body.classList.contains(this.darkTheme) ? 'dark' : 'light';
   }
@@ -57,4 +64,3 @@ export class HeaderComponent implements OnInit {
     }
   }
 }
- 

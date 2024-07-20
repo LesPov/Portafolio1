@@ -12,7 +12,7 @@ import { HeaderComponent } from './header/header.component';
     RouterOutlet,
     BodyComponent,
     PerfilComponent,
-    HeaderComponent    
+    HeaderComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -20,5 +20,5 @@ import { HeaderComponent } from './header/header.component';
 export class AppComponent {
   title = 'Portafolio1';
   isSideNavCollapsed = false;
- 
+
 }

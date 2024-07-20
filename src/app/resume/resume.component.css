@@ -34,9 +34,9 @@
 .resumen .text-animate2 h2::before {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 1px;
-    height: 26px;
+    height: 24px;
     border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
@@ -217,7 +217,7 @@
 
 
 
-
+/* ////////////////////////////////////////////////// */
 
 .habilidades .text-animate2 {
     width: 14.5rem;
@@ -243,9 +243,9 @@
 .habilidades .text-animate2 h2::before {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 1px;
-    height: 26px;
+    height: 24px;
     border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
@@ -697,14 +697,14 @@ h1 {
     box-shadow: 0 0 15px 0px #3493D0;
 }
 
+
+
+
+
 /* ////////////////////////////////////////////////////// */
 .referencias {
     margin: 0;
 }
-
-
-
-
 
 
 .referencias .text-animate2 {
@@ -731,9 +731,9 @@ h1 {
 .referencias .text-animate2 h2::before {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 1px;
-    height: 26px;
+    height: 24px;
     border-right: 3px solid var(--color-blanco-texto);
     animation: moveCursorText2 5s linear infinite;
     animation-delay: 1s;
