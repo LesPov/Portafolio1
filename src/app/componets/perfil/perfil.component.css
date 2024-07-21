@@ -23,7 +23,7 @@
 
 
 .imagen {
-    background: url(../../assets/img/fondo.jpg );
+    background: url(../../../assets/img/fondo.jpg );
     background-size: cover;
 
     margin: 5px;

@@ -319,27 +319,27 @@ input:checked+label .description {
 
 .card[for="c1"] {
     box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
-    background-image: url('../../assets//img/montañismo.jpeg');
+    background-image: url('../../../assets//img/montañismo.jpeg');
 
 }
 
 .card[for="c2"] {
     box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
-    background-image: url('../../assets//img/space1.jpeg');
+    background-image: url('../../../assets//img/space1.jpeg');
 
 
 }
 
 .card[for="c3"] {
     box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
-    background-image: url('../../assets//img/musica.jpeg');
+    background-image: url('../../../assets//img/musica.jpeg');
 
 
 }
 
 .card[for="c4"] {
-    box-shadow: inset  0px 0px 5px var(--border-shadow-interior);
-    background-image: url('../../assets//img/tecnologia.jpeg');
+    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
+    background-image: url('../../../assets//img/tecnologia.jpeg');
 
 }
 

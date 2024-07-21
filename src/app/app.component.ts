@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BodyComponent } from './body/body.component';
-import { PerfilComponent } from './perfil/perfil.component';
-import { HeaderComponent } from './header/header.component';
-
+import { BodyComponent } from './componets/body/body.component';
+import { HeaderComponent } from './componets/header/header.component';
+import { PerfilComponent } from './componets/perfil/perfil.component';
 
 @Component({
   selector: 'app-root',
