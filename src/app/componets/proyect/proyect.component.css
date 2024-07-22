@@ -1,0 +1,336 @@
+.section {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem 0rem 3rem;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0rem 0rem 1rem;
+
+}
+
+
+
+
+.proyect .text-animate2 {
+  width: 16rem;
+  position: relative;
+}
+
+.proyect .text-animate2 h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: transparent;
+  text-align: center;
+  background: linear-gradient(to top, var(--color-blanco-texto), var(--color-blanco-texto));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  transition: .6s;
+  letter-spacing: 2px;
+  animation: moveText1 5s linear infinite;
+  animation-delay: 1s;
+}
+
+.proyect .text-animate2 h2::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 1px;
+  height: 24px;
+  border-right: 3px solid var(--color-blanco-texto);
+  animation: moveCursorText1 5s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes moveText1 {
+
+  0%,
+  10%,
+  100% {
+    background-position: -16rem 0;
+  }
+
+  65%,
+  85% {
+    background-position: 0rem 0;
+  }
+}
+
+@keyframes moveCursorText1 {
+
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  65%,
+  78%,
+  85% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  75%,
+  85% {
+    opacity: 0;
+  }
+}
+
+.line {
+  width: 30%;
+  height: 3px;
+  border-radius: 10%;
+  margin-left: 20px;
+  background-color: var(--color-naranga-neon);
+  box-shadow: 0px 0px 5px 1px var(--color-naranga-neon);
+}
+
+
+
+
+img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+}
+
+/*=============== CARD ===============*/
+
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24px, 2fr));
+  grid-auto-rows: 25px;
+  column-gap: 10px;
+  row-gap: 50px;
+  padding: 2rem 0rem 5rem 0rem;
+
+}
+
+.card__article {
+  position: relative;
+  overflow: hidden;
+}
+
+.card.a1 {
+  grid-column: 1 / 7;
+  border-radius: 20px;
+  grid-row: 1 / 6;
+  background: url(../../../assets/img/calcuapp.png);
+  background-size: cover;
+}
+
+.card.a2 {
+  grid-column: 7 / 25;
+  border-radius: 20px;
+  grid-row: 1 / 4;
+
+  background: url(../../../assets/img/iphone.png);
+  background-size: cover;
+}
+
+.card__data {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card__description {
+  display: block;
+  font-size: .813rem;
+  margin-bottom: .25rem;
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 15%);
+  margin-bottom: .75rem;
+}
+
+.card__button {
+  text-decoration: none;
+  font-size: .813rem;
+  font-weight: 500;
+  color: hsl(82, 60%, 28%);
+}
+
+.card__button:hover {
+  text-decoration: underline;
+
+}
+
+/* Naming animations in hover */
+.card__article:hover .card__data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+
+}
+
+.card__article:hover {
+  animation: remove-overflow 2s forwards;
+  border-radius: 20px;
+
+}
+
+.card__article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+
+  50% {
+    overflow: hidden;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 2fr));
+    grid-auto-rows: 50px;
+    column-gap: 10px;
+    row-gap: 100px;
+    padding: 2rem 3rem 0rem 3rem;
+
+
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+  }
+  
+  .card.a1 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background: url(../../../assets/img/fondo.jpg);
+    background-size: cover;  }
+  
+  .card.a2 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .card.a3 {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+   
+  .card.a4 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .card.a5 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .card.a6 {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+   
+  .card.a7 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .card.a8 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .card.a9 {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-auto-rows: 200px;
+    }
+  
+    .card.medium {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  
+    .card.large {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-auto-rows: 150px;
+    }
+  
+    .card.medium, .card.large {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  }
+   */
