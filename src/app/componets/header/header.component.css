@@ -375,4 +375,15 @@ h2 {
 
     
     }
+    .titulo {
+        display: flex;
+        gap: 175px;
+        left: -10px;
+        top: -10px;
+      position: relative;
+    }
+    .pointerstar {
+        
+        display: none;
+    }
   }
