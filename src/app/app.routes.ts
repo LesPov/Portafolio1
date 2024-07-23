@@ -1,11 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { ResumeComponent } from './componets/resume/resume.component';
-import { ProyectComponent } from './componets/proyect/proyect.component';
-import { ContactComponent } from './componets/contact/contact.component';
-import { BlogComponent } from './componets/blog/blog.component';
+
 import { CanActivateWarningGuard } from './componets/foldersbloks/can-activate-warning.guard';
-import { AboutComponent } from './componets/about/about.component';
 
 export const routes: Routes = [
     { path: 'about', loadComponent: () => import('./componets/about/about.component').then(m => m.AboutComponent) },
