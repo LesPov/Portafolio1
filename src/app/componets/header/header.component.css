@@ -365,19 +365,14 @@ h2 {
 /* Teléfonos en orientación vertical y horizontal */
 @media (max-width: 400px) {
     .container {
-        background: hsl(204deg 100% 3% / 80%);
         margin: 10px;
-        transition: all .5s ease;
         position: relative;
-        z-index: 1;
         top: 0;
-        width: calc(100% - 5rem);
+        width: 95% ;
         display: flex;
         height: 110px;
-        border-radius: 15px;
-        align-items: center;
-        justify-content: center;
-        box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
+        left: 0;
+
     
     }
   }
