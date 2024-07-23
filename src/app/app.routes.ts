@@ -8,13 +8,13 @@ import { CanActivateWarningGuard } from './componets/foldersbloks/can-activate-w
 import { AboutComponent } from './componets/about/about.component';
 
 export const routes: Routes = [
-    { path: 'about', component: AboutComponent },
-    { path: 'resume', component: ResumeComponent },
-    { path: 'proyect', component: ProyectComponent },
-    { path: 'blog', component: BlogComponent, canActivate: [CanActivateWarningGuard] },
-    { path: 'contact', component: ContactComponent, canActivate: [CanActivateWarningGuard] },
+    { path: 'about', loadComponent: () => import('./componets/about/about.component').then(m => m.AboutComponent) },
+    { path: 'resume', loadComponent: () => import('./componets/resume/resume.component').then(m => m.ResumeComponent) },
+    { path: 'proyect', loadComponent: () => import('./componets/proyect/proyect.component').then(m => m.ProyectComponent) },
+    { path: 'blog', loadComponent: () => import('./componets/blog/blog.component').then(m => m.BlogComponent), canActivate: [CanActivateWarningGuard] },
+    { path: 'contact', loadComponent: () => import('./componets/contact/contact.component').then(m => m.ContactComponent), canActivate: [CanActivateWarningGuard] },
     { path: '', redirectTo: '/about', pathMatch: 'full' },
-    { path: '**', redirectTo: '/about' } 
+    { path: '**', redirectTo: '/about' }
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

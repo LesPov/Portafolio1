@@ -107,9 +107,9 @@ img {
 
 .card__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(24px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(25px, 2fr));
   grid-auto-rows: 25px;
-  column-gap: 10px;
+  column-gap: 5px;
   row-gap: 50px;
   padding: 2rem 0rem 5rem 0rem;
 
@@ -121,32 +121,55 @@ img {
 }
 
 .card.a1 {
-  grid-column: 1 / 7;
+  grid-column: 1 / 9;
+  grid-row: 1 / 7;
   border-radius: 20px;
-  grid-row: 1 / 6;
-  background: url(../../../assets/img/calcuapp.png);
-  background-size: cover;
+
+
 }
 
 .card.a2 {
-  grid-column: 7 / 25;
-  border-radius: 20px;
+  grid-column: 10 / 28;
   grid-row: 1 / 4;
+  border-radius: 20px;
 
-  background: url(../../../assets/img/iphone.png);
-  background-size: cover;
+}
+
+.card.a3 {
+  grid-column: 10 / 18;
+  grid-row: 4 / 7;
+  border-radius: 20px;
+
+}
+
+.card.a4 {
+  grid-column: 20 / 28;
+  grid-row: 4 / 7;
+  border-radius: 20px;
+  background: #ffffff14;
+  border: 2px dashed #fff;
+  cursor: pointer;
+
+}
+
+.card.a4:hover {
+
+  background: hsl(25deg 100% 50% / 16%);
+  border: 2px dashed hsl(25, 100%, 50%);
+
+
 }
 
 .card__data {
-  width: 100%;
+  width: 105%;
   background-color: hsl(0, 0%, 100%);
   padding: 1.5rem 2rem;
-  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  box-shadow: 0 8px 24px hsla(0, 0%, 100%, 0.15);
   border-radius: 1rem;
   position: absolute;
   bottom: -9rem;
-  left: 0;
-  right: 0;
+  left: -15px;
+  right: -15px;
   margin-inline: auto;
   opacity: 0;
   transition: opacity 1s 1s;
