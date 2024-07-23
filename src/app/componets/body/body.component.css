@@ -2,7 +2,7 @@
     width: calc(100% - 25rem);
     min-height: 96vh;
     margin-left: 23rem;
-    margin-top: 1.5rem;
+    margin-top: 8.5rem;
     margin-bottom: 1rem;
     z-index: 1000;
     position: relative;
@@ -84,8 +84,8 @@
         width: 95%;
         min-height: 96vh;
         margin: 10px;
-        margin-bottom: 15px;
-        z-index: 1000;
+        margin-bottom: 130px;
+        z-index: 100;
         position: relative;
         top: 110px;
     
