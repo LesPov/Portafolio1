@@ -360,14 +360,16 @@ input:checked+label .description {
     color: #ccc;
 
 }
+
 /* Teléfonos en orientación vertical y horizontal */
 @media (max-width: 400px) {
     .title {
         padding: 0rem 0rem 0rem 1rem;
-    
+
     }
+
     .section {
-               padding: 2rem 1rem 0rem 1rem;
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .container1 {
@@ -378,8 +380,9 @@ input:checked+label .description {
         gap: 20px;
         flex-direction: column;
         margin: 0;
-
+        align-items: center;
     }
+
     .card {
         width: 100%;
         height: 100px;
@@ -388,6 +391,23 @@ input:checked+label .description {
     input:checked+label {
         width: 100%;
         height: 300px;
-        }
-    
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        flex-direction: column;
+        padding: 0;
+    }
+    .wrapper .subtitle {
+        text-align: start;
+        padding: 20px;
+        color: var(--color-blanco-texto);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+        font-weight: 600;
+        font-size: 20px;
+    }
 }
