@@ -10,7 +10,6 @@
 .title {
   display: flex;
   align-items: center;
-  padding: 0rem 0rem 0rem 1rem;
 
 }
 
@@ -18,7 +17,7 @@
 
 
 .proyect .text-animate2 {
-  width: 16rem;
+  width: 15rem;
   position: relative;
 }
 
@@ -53,7 +52,7 @@
   0%,
   10%,
   100% {
-    background-position: -16rem 0;
+    background-position: -15rem 0;
   }
 
   65%,
@@ -262,6 +261,47 @@ img {
   50% {
     overflow: hidden;
   }
+}
+
+
+/* Teléfonos en orientación vertical y horizontal */
+@media (max-width: 400px) {
+  .card.a1 {
+    grid-column: 2 / 11;
+    grid-row: 1 / 9;
+    border-radius: 20px;
+  }
+
+  .card.a2 {
+    grid-column: 2 / 11;
+    grid-row: 9 / 12;
+    border-radius: 20px;
+  }
+
+  .card.a3 {
+    grid-column: 2 / 11;
+    grid-row: 12 / 16;
+    border-radius: 20px;
+  }
+
+  .card.a4 {
+    grid-column: 2 / 11;
+    grid-row: 16 / 20;
+    border-radius: 20px;
+    background: #ffffff14;
+    border: 2px dashed #fff;
+    cursor: pointer;
+  }
+
+  .title {
+    padding: 0rem 0rem 0rem 1rem;
+
+  }
+
+  .section {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+  
 }
 
 /*=============== BREAKPOINTS ===============*/

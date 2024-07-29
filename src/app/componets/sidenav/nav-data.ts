@@ -6,22 +6,22 @@ export const navbarData = [
     },
     {
         routerLink: 'resume',
-        icon: 'bx bx-user',
+        icon: 'bx bx-library',
         label: 'Resumen'
     },
     {
         routerLink: 'proyect',
-        icon: 'bx bx-user',
+        icon: 'bx bxl-spring-boot',
         label: 'Proyectos'
     },
     {
         routerLink: 'blog',
-        icon: 'bx bx-user',
+        icon: 'bx bx-blanket',
         label: 'Blogs'
     },
     {
         routerLink: 'contact',
-        icon: 'bx bx-user',
+        icon: 'bx bxs-contact',
         label: 'Contactame'
     }
 ]
