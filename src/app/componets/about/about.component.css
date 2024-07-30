@@ -291,14 +291,52 @@
     margin: 0;
 }
 
-.description p {
-    color: #434343;
-    margin: 0;
-    /* Elimina los márgenes predeterminados */
-    text-align: left;
-    /* Alinea el texto a la izquierda */
-    font-weight: 500;
+.description.c1 p {
+    color: transparent;
+    margin-top: 34px !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
 
+.description.c1 p:hover {
+    color: #ffffff;
+}
+
+.description.c2 p {
+    color: transparent;
+    margin-top: 34px !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.description.c2 p:hover {
+    color: #ffffff;
+}
+
+.description.c3 p {
+    color: transparent;
+    margin-top: 34px !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.description.c3 p:hover {
+    color: #ffffff;
+}
+
+.description.c4 p {
+    color: transparent;
+    margin-top: 34px !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.description.c4 p:hover {
+    color: #ffffff;
 }
 
 input {
@@ -316,28 +354,46 @@ input:checked+label .description {
 
 
 .card[for="c1"] {
-    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px #000000ca;
     background-image: url('../../../assets//img/montañismo.jpeg');
 
 }
 
-.card[for="c2"] {
-    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
-    background-image: url('../../../assets//img/space1.jpeg');
+.card[for="c1"]:hover {
+    box-shadow: inset 0 0 90px 90px #000000ca;
 
+}
+
+.card[for="c2"] {
+    box-shadow: inset 0px 0px 5px #000000ca;
+    background-image: url('../../../assets//img/space1.jpeg');
+}
+
+.card[for="c2"]:hover {
+    box-shadow: inset 0 0 90px 90px #000000ca;
 
 }
 
 .card[for="c3"] {
-    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px #000000ca;
     background-image: url('../../../assets//img/musica.jpeg');
 
 
 }
 
+.card[for="c3"]:hover {
+    box-shadow: inset 0 0 90px 90px #000000ca;
+
+}
+
 .card[for="c4"] {
-    box-shadow: inset 0px 0px 5px var(--border-shadow-interior);
+    box-shadow: inset 0px 0px 5px #000000ca;
     background-image: url('../../../assets//img/tecnologia.jpeg');
+
+}
+
+.card[for="c4"]:hover {
+    box-shadow: inset 0 0 90px 90px #000000ca;
 
 }
 
@@ -402,6 +458,7 @@ input:checked+label .description {
         flex-direction: column;
         padding: 0;
     }
+
     .wrapper .subtitle {
         text-align: start;
         padding: 20px;
