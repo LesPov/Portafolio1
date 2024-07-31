@@ -7,7 +7,7 @@
     position: relative;
     top: 0;
     backdrop-filter: blur(1px);
-    overflow: hidden;
+    border: 1px solid var(--border-interior);
     transition: all .5s ease;
     background: var(--color-background-container);
     border-radius: 15px;

@@ -32,7 +32,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(0 0 0 / 80%);
+    background: rgb(0 0 0 / 90%);
     z-index: -1;
 }
 
@@ -44,27 +44,18 @@
     --color-background-header-sidenav: hsl(204deg 100% 3%);
     --color-azul-neon: hsl(186, 100%, 50%);
     --border-shadow-interior: hsl(204deg 100% 18%);
-    --color-white-text: #fff; 
+    --border-interior: hsl(186deg 100% 50% / 89%);
+    --color-white-text: #fff;
     --color-black-text: #000;
-    
-    --color-background-hover-azul-neon: #000cfa3e; /* para .containerOne:hover */
-    --color-azul-hover: #0026ff; /* para .containerOne:hover */
-    --color-white: #fff; /* para .containerTwo */
-    --color-pink: #ea07ff; /* para .containerThree */
-    --color-background-hover-pink: #a81bb56a; /* para .containerThree:hover */
-    --color-pink-hover: #a407ff; /* para .containerThree:hover */
     --color-gray: #737270;
-    --color-bxs-star: #daaa3f;
-    --color-bx: #ccc;
-    --color-background-nav-btns: #002639;
-    --color-border-shadow-interior: hsl(185, 100%, 18%); /* asumido de un ejemplo */
-    --color-border-shadow-interior-img: hsl(185, 100%, 18%); /* asumido de un ejemplo */
-    --color-background-interior-img: hsl(0, 100%, 0%); /* asumido de un ejemplo */
-    --color-text-shadow: #737270; /* sombra en .moon, .star, .puntos */
+    --color-grisclaro-text: #ccc;
+    --border-shadow-interior-img: hsl(185, 100%, 18%);
+    --backgraund-interior-img: hsl(0, 100%, 0%);
+
 
     --backgraund-body: hsl(0, 100%, 0%);
     --backgraund-componets: hsl(204, 100%, 3%);
-    --border-shadow-interior: hsl(185, 100%, 18%);
+    --border-interior: hsl(186deg 100% 50% / 89%);
     --border-shadow-interior-img: hsl(185, 100%, 18%);
     --backgraund-interior-img: hsl(0, 100%, 0%);
 
@@ -98,33 +89,23 @@
 
 /* //////////// Dark Tema ///////////////////// */
 body.dark-theme {
-    --backgraund-body: hsl(0, 100%, 0%);
-    --backgraund-componets: hsl(0, 0%, 86.67%);
-    --border-shadow-interior: hsl(0, 0%, 21%);
-    --border-shadow-interior-img: hsl(180, 1%, 59%);
-    --backgraund-interior-img: hsl(0, 0%, 0%);
+    --color-background-container: hsl(0deg 0% 100% / 10%);
+    --color-background-header-sidenav: hsl(204, 100%, 3%) 
+    --color-azul-neon: hsl(186, 100%, 50%);
+    --border-shadow-interior: hsl(0deg 0% 100% / 29%);
+    --border-interior: #ccc;
 
-    --color-blanco-texto: hsl(0, 0%, 0%);
-    --color-negro-texto: hsl(0, 0%, 100%);
-    --color-gris-texto: hsl(0, 0%, 14%);
-    --sombra-cards-personales: hsl(0, 0%, 27%);
+    --color-white-text: #fff;
+    --color-black-text: #000;
+    --color-gray: #737270;
+    --color-grisclaro-text: #ccc;
 
-    --backgraund-hover-negro-cards-social: hsl(0, 0%, 100%);
-    --backgraund-hover-blanco-text-cards-social: hsl(0, 0%, 0%);
-    --sombra-cards-personales-hover: hsl(200, 60%, 11%);
 
-    --color-naranga-neon: hsl(25, 100%, 50%);
-    --sombra-boton-cv: hsl(24.71, 77.27%, 8.63%);
+
 
     /* //////////////header//////////// */
 
-    --color-azul-neon: #00e5ff;
-    --color-borde-azul: hsl(0, 0%, 0%);
 
     /* ///////////////////////about/////////////// */
-    --color-texto-title: hsl(0, 0%, 100%);
-    --color-texto-blanco: hsl(0, 0%, 67%);
-    --color-b1: hsl(0, 0%, 0%);
-    --color-b2: hsl(0, 0%, 0%);
 
 }
