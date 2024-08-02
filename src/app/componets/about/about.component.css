@@ -21,7 +21,7 @@
     font-weight: 800;
     color: transparent;
     text-align: center;
-    background: linear-gradient(to top, var(--color-blanco-texto), var(--color-blanco-texto));
+    background: linear-gradient(to top, var( --color-white-text), var( --color-white-text));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -37,7 +37,7 @@
     top: 6px;
     left: 1px;
     height: 24px;
-    border-right: 3px solid var(--color-blanco-texto);
+    border-right: 3px solid var( --color-white-text);
     animation: moveCursorText1 5s linear infinite;
     animation-delay: 1s;
 }
@@ -102,7 +102,7 @@
     width: 100%;
     text-align: justify;
     margin-bottom: 15px;
-    color: var(--color-gris-texto);
+    color: var(--color-grisclaro-text);
 
 }
 
@@ -113,7 +113,7 @@
 .container .heading {
     text-align: start;
     padding-bottom: 15px;
-    color: var(--color-blanco-texto);
+    color: var( --color-white-text);
     font-weight: 600;
 
     font-size: 20px;
@@ -128,7 +128,7 @@
 .container .box_container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 15px;
+    gap: 50px;
 }
 
 .container .box_container .box {
@@ -139,13 +139,44 @@
 }
 
 .b1 {
+    position: relative;
     background: var(--color-b1);
 
 }
 
+.b1::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 41%, rgba(63, 0, 40, 0.4598214285714286) 50%, rgba(63, 0, 40, 1) 58%);
+    z-index: -1;
+    border-radius: inherit;
+    filter: blur(10px); /* Adjust blur to make it look like a shadow */
+    opacity: 0.7; /* Adjust opacity as needed */
+}
+
+
 .b2 {
+    position: relative;
     background: var(--color-b2);
 
+}
+
+.b2::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 41%, #283b00 50%, #283b0090 58%);
+    z-index: -1;
+    border-radius: inherit;
+    filter: blur(10px); /* Adjust blur to make it look like a shadow */
+    opacity: 0.7; /* Adjust opacity as needed */
 }
 
 .container .box_container .box .icon {
@@ -216,7 +247,7 @@
 .wrapper .subtitle {
     text-align: start;
     padding-bottom: 15px;
-    color: var(--color-blanco-texto);
+    color: var( --color-white-text);
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
     font-weight: 600;
 
@@ -462,7 +493,7 @@ input:checked+label .description {
     .wrapper .subtitle {
         text-align: start;
         padding: 20px;
-        color: var(--color-blanco-texto);
+        color: var( --color-white-text);
         text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
         font-weight: 600;
         font-size: 20px;

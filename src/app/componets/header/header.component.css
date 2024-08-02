@@ -1,7 +1,6 @@
 .container {
-    background: var(--color-background-container); 
+    background: var(--color-background-container);
     backdrop-filter: blur(1px);
-    border: 1px solid #ffffff6e;
     border: 1px solid var(--border-interior);
 
     margin-top: 20px;
@@ -57,7 +56,7 @@ h2 {
         1px -1px 0 var(--color-azul-neon),
         1px 1px 0 var(--color-azul-neon),
         -1px 1px 0 var(--color-azul-neon);
-    text-shadow: 0px 0px 6px var(--color-borde-azul);
+    text-shadow: 0px 0px 6px var(--color-azul-neon);
     top: 0;
 }
 
@@ -167,7 +166,7 @@ h2 {
 
 /* for all social containers*/
 .socialContainer {
-    background: var(--backgraund-interior-img);
+    background: transparent;
     border-radius: 5px;
     margin-top: 5px;
     width: 30px;
@@ -178,7 +177,8 @@ h2 {
     overflow: hidden;
     text-decoration: none;
     transition-duration: .3s;
-    box-shadow: 0px 0px 5px 0px var(--color-borde-azul);
+    box-shadow: 0px 0px 5px 1px var(--border-shadow-interior);
+    border: 1px solid var(--border-interior);
 
 }
 
