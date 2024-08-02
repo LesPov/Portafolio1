@@ -24,9 +24,8 @@
 
 
 .imagen {
-    background: url(../../../assets/img/fondo.jpg );
+    background: transparent;
     background-size: cover;
-
     margin: 5px;
     z-index: 2;
     width: 240px;
@@ -42,12 +41,12 @@
 
 .imagen img {
     width: 270px;
-    height: 300px;
+    height: 310px;
     border-radius: 15px;
-    margin-left: -30px;
-    filter: drop-shadow(0px -50px 50px hsl(0deg 0% 0.100%));
+    margin-left: -34px;
+    filter: drop-shadow(0px -20px 40px hsl(0deg 0% 0.100%));
     transform: rotate(357deg);
-    margin-bottom: 5px;
+    margin-top: -10px;
     transition: .9s;
 
 
