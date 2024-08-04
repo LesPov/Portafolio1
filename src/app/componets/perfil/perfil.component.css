@@ -144,8 +144,8 @@ h1 {
     margin: 15px 0 15px 0;
     cursor: pointer;
     font-weight: 600;
-    border: 1px solid var(--border-shadow-interior);
-    transition: 0.5s ease-in-out;
+    border: 1px solid var(--border-interior);
+    transition: 0.5s ease;
 }
 
 .buttons:hover {

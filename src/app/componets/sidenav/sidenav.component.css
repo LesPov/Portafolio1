@@ -1,5 +1,4 @@
-
-.header{
+.header {
     width: calc(100% - 25rem);
     margin-left: 23rem;
     display: flex;
@@ -7,6 +6,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .container {
     width: 100%;
     padding: 0rem 3rem 0rem 3rem;
@@ -137,19 +137,20 @@
     }
 
     .header {
-       
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            z-index: 1060;
-            background: hsl(204deg 100% 3%);
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            box-shadow: 0px 2px 11px 1px var(--border-shadow-interior);
-            margin-top: 0;
-            margin-left: 0;
-            margin-bottom: 0;
+
+        width: 105%;
+        position: fixed;
+        bottom: -6px;
+        left: -10px;
+        z-index: 1060;
+        border: 1px solid var(--border-interior);
+        box-shadow: 0px 0px 6px 2px var(--border-shadow-interior);
+        background: var( --color-background-header-sidenav);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
     .grid {

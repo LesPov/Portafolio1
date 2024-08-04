@@ -1,4 +1,4 @@
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { CanActivateWarningGuard } from './componets/foldersbloks/can-activate-warning.guard';
@@ -13,7 +13,7 @@ export const routes: Routes = [
     { path: '**', redirectTo: '/about' }
 ];
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+    imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })],
     exports: [RouterModule]
 })
 export class AppRoutingModule { } 

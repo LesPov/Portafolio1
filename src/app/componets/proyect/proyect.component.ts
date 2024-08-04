@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
@@ -6,7 +6,9 @@ import { ToastrService } from 'ngx-toastr';
   standalone: true,
   imports: [],
   templateUrl: './proyect.component.html',
-  styleUrl: './proyect.component.css'
+  styleUrl: './proyect.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+
 })
 export class ProyectComponent {
   constructor(private toastr: ToastrService) {

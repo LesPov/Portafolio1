@@ -5,6 +5,7 @@ import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
+  
 })
 export class CanActivateWarningGuard implements CanActivate {
   constructor(private toastr: ToastrService, private router: Router) {}
