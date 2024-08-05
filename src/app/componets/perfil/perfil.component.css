@@ -145,6 +145,8 @@ h1 {
     cursor: pointer;
     font-weight: 600;
     border: 1px solid var(--border-interior);
+    box-shadow: inset 0px 0px 6px 2px var(--border-shadow-interior);
+
     transition: 0.5s ease;
 }
 
